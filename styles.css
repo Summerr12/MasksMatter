@@ -1,10 +1,33 @@
 h1 {
-	text-align: center
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-family:georgia;
+	color: CC6600;
 }
 main {
-	text-align: center
+	text-align: center;
+	
 }
 a {
-	margin: 20px;
+	margin: 130px;
+}
+h3 {
+	position:absolute;
+	left:20px; 
+	top:-10px; 
+	background-color:yellow;
 
+}
+body {
+	background-image: url("pleasework.jpg");
+	font-weight: 30em;
+}
+.missionstate {
+	text-align: center;
+	font-size: 30px;
+}
+#donate {
+	font size:20px;
+	text-align: center;
 }
