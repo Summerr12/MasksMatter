@@ -16,11 +16,12 @@ h3 {
 	position:absolute;
 	left:0px; 
 	top:-20px; 
-	background-color:yellow;
+	background-color:skyblue;
 
 }
 body {
-	background-image: url("pleasework.jpg");
+	background-color: lightblue;
+	/*background-image: url("pleasework.jpg");*/
 	font-weight: 30em;
 }
 .missionstate {
