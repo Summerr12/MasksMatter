@@ -1,15 +1,17 @@
 .topnav a{
-	background-color:skyblue;
+	margin:5px;
 }
 .topnav {
 	background-color:skyblue;
 	margin-top: -20px;
 	overflow:hidden;
+/*	display:flex;*/
+	font-size: 18px;
+
 }
 .topnav a:hover {
 	background-color: #ddd;
 	color: black;
-	overflow: hidden;
 
 }
 h1 {
@@ -33,17 +35,29 @@ body {
 }
 .missionstate {
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 }
 #donate {
 	font size:20px;
 	text-align: center;
 }
-#left {
+#click1 {
 	position:relative;
-	left: 25%;
+	left: 0%;
 }
-#nooo {
+#click2 {
 	position:relative;
-	left: 50%;
+	left: 10%;
+}
+#click3 {
+	position:relative;
+	left: 20%;
+}
+#click4 {
+	position:relative;
+	left: 30%;
+}
+#click5 {
+	position:relative;
+	left: 40%;
 }
