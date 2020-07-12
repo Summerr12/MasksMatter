@@ -52,6 +52,9 @@ body {
 	margin: 0 2rem;
 }
 .apply {
+	background-image: url("https://webstockreview.net/images/clipart-flower-park.jpg");
+	background-size: 100vw;
+	background-repeat: no-repeat;
 	text-align: center;
 	font-size:20px;
 }
@@ -90,5 +93,9 @@ ol li{
 }
 #contactus {
 	background-color:#b2c0ef;
-	height:3.1rem;
+	height:3.2rem;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+
 }
