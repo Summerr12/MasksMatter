@@ -1,27 +1,34 @@
+.topnav a{
+	background-color:skyblue;
+}
+.topnav {
+	background-color:skyblue;
+	margin-top: -20px;
+	overflow:hidden;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	overflow: hidden;
+
+}
 h1 {
 	text-align: center;
 	font-size: 50px;
 	margin-top: 100px;
-	font-family:georgia;
-	color: CC6600;
+	font-family: Arial;
+	color: #061340;
+	text-shadow: 2px 2px blue;
 }
 main {
 	text-align: center;
 	
 }
-a {
-	margin: 130px;
-}
-h3 {
-	position:absolute;
-	left:0px; 
-	top:-20px; 
-	background-color:skyblue;
 
-}
 body {
-	background-color: lightblue;
-	/*background-image: url("pleasework.jpg");*/
+	background-image: url("down.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
 	font-weight: 30em;
 }
 .missionstate {
@@ -31,4 +38,12 @@ body {
 #donate {
 	font size:20px;
 	text-align: center;
+}
+#left {
+	position:relative;
+	left: 25%;
+}
+#nooo {
+	position:relative;
+	left: 50%;
 }
