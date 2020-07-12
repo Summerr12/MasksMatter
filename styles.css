@@ -81,6 +81,10 @@ body {
 	flex-direction:row;
 	justify-content: space-around;
 }
-ol {
-	font-size: 1.8rem;
+ol  {
+	font-size: 1.8rem; 
+	margin-bottom:7rem; 
+}
+ol li{
+	margin-bottom:1.4rem; 
 }
