@@ -55,9 +55,9 @@ body {
 	font-size: 25px;
 	margin: 0 2rem;
 }
-@media all and (max-width: 750px) {
+@media all and (max-width: 800px) {
 	.missionstate {
-		font-size:.9rem;
+		font-size: 1.2rem;
 	}
 }
 .apply {
@@ -70,6 +70,12 @@ body {
 #donate {
 	text-align: center;
 	font-size:18px;
+}
+@media all and (max-width: 650px){
+	.imagelink {
+		width:80%;
+		height: 90%;
+	}
 }
 #winning {
 	display:flex;
@@ -105,10 +111,11 @@ ol li{
 }
 #contactus {
 	background-color:#b2c0ef;
-	height:3.2rem;
+	height:4rem;
 	display:flex;
-	justify-content: space-between;
 	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 }
 #simple ,#switch{
 	display: none;
@@ -146,5 +153,6 @@ ol li{
 	}
 }
 #instagram {
-	padding-bottom: 2rem;
+	padding-bottom: 0rem;
+	margin: 0 2rem;
 }
