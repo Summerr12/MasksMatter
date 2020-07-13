@@ -25,21 +25,24 @@ nav a:hover {
 nav h3 {
 	margin:0px;
 }
-h1 {
-	text-align: center;
-	font-size: 4.4rem;
-	margin-top: 3rem;
-	font-family: Arial;
-	color: #061340;
+#title {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 1000px;
 	text-shadow: 2px 2px blue;
+}
+@media all and (max-width: 980px) {
+	#title {
+		width:90%;
+	}
 }
 main {
 	text-align: center;
-	
 }
 
 body {
-	background-image: url("down.jpg");
+	background-image: url("donedone.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	font-weight: 30em;
@@ -52,8 +55,13 @@ body {
 	font-size: 25px;
 	margin: 0 2rem;
 }
+@media all and (max-width: 750px) {
+	.missionstate {
+		font-size:.9rem;
+	}
+}
 .apply {
-	/*background-image: url("https://webstockreview.net/images/clipart-flower-park.jpg");*/
+	/*background-image: url("https://lh3.googleusercontent.com/proxy/Wfs4BZs-98yMRExyT-YeYbsyPCysMnonHuddOUz5PkkYGVSO2I2lWNCvuWJ3M3Gtl_Wn8FQE0R3OUoePFkmEYx5aUESkKFC7X-zbajvhrK7xwuMMCiGWO6rL");*/
 	background-size: 100vw;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -73,12 +81,15 @@ body {
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
+	color:#3154ff;
 }
 .prize h2 {
 	margin:0;
 }
 .section {
 	font-size:2.5rem;
+	color: #00fffc;
+	text-shadow: 2px 2px blue;
 }
 .rules {
 	display:flex;
@@ -130,7 +141,10 @@ ol li{
 	#simple ~ a{
 		display: flex;
 	}
-	#simple:checked~a{
+	#simple:checked ~ a{
 		display: none;
 	}
+}
+#instagram {
+	padding-bottom: 2rem;
 }
