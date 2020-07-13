@@ -82,12 +82,26 @@ body {
 	flex-direction:row;
 	justify-content: space-around;
 }
-
 .prize {
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	color:#3154ff;
+	text-shadow: 2px 2px #3154ff;
+}
+@media all and (max-width: 953px){
+	.prize {
+		font-size: .9rem;
+	}
+}
+@media all and (max-width: 666px){
+	#winning {
+		display:flex;
+		flex-direction:column;
+		justify-content: center;
+	}
+	.prize{
+		font-size: 1.2rem;
+	}
 }
 .prize h2 {
 	margin:0;
