@@ -2,7 +2,7 @@ nav a{
 	width:100%;
 	text-align: center;
 	text-decoration: none;
-	height:3.1rem;
+	height:3.7rem;
 	display:flex;
 	flex-direction: column;
 	justify-content:center;
@@ -15,7 +15,8 @@ nav {
 	flex-direction: row-reverse;
 	/*justify-content: space-around;*/
 	align-content: center;
-	height:3.1rem;
+	height:3.7rem;
+	padding: 20px;
 }
 nav a:hover {
 	background-color: #ddd;
@@ -97,4 +98,39 @@ ol li{
 	display:flex;
 	justify-content: space-between;
 	flex-direction: row;
+}
+#simple ,#switch{
+	display: none;
+}
+
+@media all and (max-width: 1148px) {
+	nav {
+		font-size: 1.4rem;
+	}
+
+}
+@media all and (max-width: 1015px) {
+	nav {
+		font-size: 1.3rem;
+	}
+}
+@media all and (max-width: 556px) {
+	nav {
+		font-size: 1.1rem;
+		flex-direction: column-reverse;
+		height: auto !important;
+		padding: 0;
+	}
+/*	#simple{
+		display: flex;
+	}*/
+	#switch{
+		display: flex;
+	}
+	#simple ~ a{
+		display: flex;
+	}
+	#simple:checked~a{
+		display: none;
+	}
 }
