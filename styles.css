@@ -18,17 +18,31 @@ nav {
 	display:flex;
 	font-size: 1.5rem;
 	flex-direction: row-reverse;
-	/*justify-content: space-around;*/
+	justify-content: space-around;
 	align-content: center;
 	height:3.7rem;
 	padding: 20px;
+	list-style: none;
 }
 nav a:hover {
-	background-color: #1111;
-	color: black;
+/*	background-color: #1111;
+*/	color: black;
+}
+
+nav a::before{
+	content:'';
+	display: block;
+	height: 5px;
+	background-color: #444;
+	width: 0%;
+	transition: all ease-in-out 300ms;;
+}
+nav a:hover::before{
+	width:100%;
 }
 nav h3 {
 	margin:0px;
+	padding-top: 0.7rem;
 }
 #simple ,#switch{
 	display: none;
