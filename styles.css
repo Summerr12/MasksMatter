@@ -7,9 +7,10 @@ nav a{
 	display:flex;
 	flex-direction: column;
 	justify-content:center;
+	color: #084251;
 }
 nav {
-	background-color:skyblue;
+	background-color:#91e7fd;
 	margin: 0px;
 	display:flex;
 	font-size: 1.5rem;
@@ -104,8 +105,10 @@ main {
 	text-align: center;
 }
 .missionstate {
+	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 	font-size: 25px;
+	font-weight: 500;
 	margin: 0 2rem;
 }
 @media all and (max-width: 800px) {
@@ -206,8 +209,12 @@ details[open] summary {
 	text-align: center;
 	font-size:18px;
 }
+#afterdonate{
+	text-align: center;
+	font-size: 1.6rem;
+}
 #contactus {
-	background-color:#b2c0ef;
+	background-color:#137d97;
 	height:4rem;
 	display:flex;
 	flex-direction: row;
