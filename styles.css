@@ -13,7 +13,7 @@ nav a{
 	color: #084251;
 }
 nav {
-	background-color:#91e7fd;
+	background-color:#c6fbff;
 	margin: 0px;
 	display:flex;
 	font-size: 1.5rem;
@@ -157,7 +157,6 @@ main {
 	flex-direction:row;
 	justify-content: space-around;
 	text-align:center;
-	margin-left: 3rem;
 }
 @media all and (max-width: 1150px){
 	.spaceonsameline {
@@ -166,9 +165,16 @@ main {
 		align-items: center;
 	}
 	#examplevid{
-		min-width: 0 !important;
-		width: 90% !important;
+		min-width: 23rem !important;
+		width: 100% !important;
 	}
+}
+.imagelink {
+	 transition: transform .2s; /* Animation */
+	 margin: 0 auto;
+}
+.imagelink:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 /*when shrinking and making image that holds link*/
 @media all and (max-width: 650px){
@@ -183,7 +189,10 @@ main {
 	flex-direction:row;
 	justify-content: space-around;
 	font-family: 'Josefin Sans', sans-serif;
+	
+	
 }
+
 /*for aligning row*/
 .prize {
 	display:flex;
@@ -223,9 +232,12 @@ details {
 
 summary {
     font-weight: bold;
-    margin: -.5em -.5em 0;
+    margin: 1rem 1rem;
+    margin-right:2rem;
     padding: .5em;
     outline:none;
+    border:2px dashed #c6fbff;
+   	align-items:center;
 }
 
 details[open] {
@@ -237,7 +249,7 @@ details[open] summary {
 }
 #examplevid {
 	margin-right: 3rem;
-	min-width:35rem;
+	min-width:37rem;
 }
 
 
