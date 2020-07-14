@@ -1,3 +1,4 @@
+/*Nav bar*/
 nav a{
 	width:100%;
 	text-align: center;
@@ -25,6 +26,39 @@ nav a:hover {
 nav h3 {
 	margin:0px;
 }
+#simple ,#switch{
+	display: none;
+}
+
+@media all and (max-width: 1148px) {
+	nav {
+		font-size: 1.4rem;
+	}
+
+}
+@media all and (max-width: 1015px) {
+	nav {
+		font-size: 1.3rem;
+	}
+}
+@media all and (max-width: 556px) {
+	nav {
+		font-size: 1.1rem;
+		flex-direction: column-reverse;
+		height: auto !important;
+		padding: 0;
+	}
+	#switch{
+		display: flex;
+	}
+	#simple ~ a{
+		display: flex;
+	}
+	#simple:checked ~ a{
+		display: none;
+	}
+}
+/*The main title*/
 #title {
   	display: block;
   	margin-left: auto;
@@ -37,10 +71,7 @@ nav h3 {
 		width:90%;
 	}
 }
-main {
-	text-align: center;
-}
-
+/*Most content*/
 body {
 	background-image: url("donedone.jpg");
 	background-size:cover;
@@ -49,6 +80,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: arial;
+}
+/*Mission Statement*/
+main {
+	text-align: center;
 }
 .missionstate {
 	text-align: center;
@@ -60,12 +95,23 @@ body {
 		font-size: 1.2rem;
 	}
 }
-.apply {
-	/*background-image: url("https://lh3.googleusercontent.com/proxy/Wfs4BZs-98yMRExyT-YeYbsyPCysMnonHuddOUz5PkkYGVSO2I2lWNCvuWJ3M3Gtl_Wn8FQE0R3OUoePFkmEYx5aUESkKFC7X-zbajvhrK7xwuMMCiGWO6rL");*/
-	background-size: 100vw;
-	background-repeat: no-repeat;
+/*Centering each subtitle and img*/
+.centertitleimg {
 	text-align: center;
 	font-size:20px;
+}
+.subtitles {
+	font-size:2.5rem;
+	color: #00fffc;
+	text-shadow: 2px 2px blue;
+}
+/*Having the list and video on the same line*/
+/*Affects Design Criteria and Submission Guidelines*/
+.spaceonsameline {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	text-align:center;
 }
 #donate {
 	text-align: center;
@@ -109,17 +155,6 @@ body {
 .prize h2 {
 	margin:0;
 }
-.section {
-	font-size:2.5rem;
-	color: #00fffc;
-	text-shadow: 2px 2px blue;
-}
-.rules {
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	text-align:center;
-}
 ol  {
 	font-size: 1.5rem; 
 	margin-bottom:7rem; 
@@ -128,8 +163,8 @@ ol  {
 ol li{
 	margin-bottom:1.4rem; 
 }
-ul {
-	font-size: 1rem;
+ul{
+	font-size: 1.2rem;
 }
 #contactus {
 	background-color:#b2c0ef;
@@ -139,41 +174,7 @@ ul {
 	justify-content: flex-start;
 	align-items: center;
 }
-#simple ,#switch{
-	display: none;
-}
 
-@media all and (max-width: 1148px) {
-	nav {
-		font-size: 1.4rem;
-	}
-
-}
-@media all and (max-width: 1015px) {
-	nav {
-		font-size: 1.3rem;
-	}
-}
-@media all and (max-width: 556px) {
-	nav {
-		font-size: 1.1rem;
-		flex-direction: column-reverse;
-		height: auto !important;
-		padding: 0;
-	}
-/*	#simple{
-		display: flex;
-	}*/
-	#switch{
-		display: flex;
-	}
-	#simple ~ a{
-		display: flex;
-	}
-	#simple:checked ~ a{
-		display: none;
-	}
-}
 #instagram {
 	padding-bottom: 0rem;
 	margin: 0 2rem;
