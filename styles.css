@@ -47,6 +47,7 @@ nav h3 {
 #simple ,#switch{
 	display: none;
 }
+
 @media all and (max-width: 1148px) {
 	nav {
 		font-size: 1.4rem;
@@ -72,6 +73,14 @@ nav h3 {
 	}
 	#simple:checked ~ li a{
 		display: none;
+	}
+	#simple+label span::after{
+		content: "Close";
+		margin-left: 0.5rem; 
+		font-family: Arial;
+	}
+	#simple:checked +label span::after{
+		content: "Open";
 	}
 }
 /*The main title*/
