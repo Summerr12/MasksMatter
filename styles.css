@@ -230,6 +230,9 @@ details[open] summary {
 	justify-content: flex-start;
 	align-items: center;
 }
+#contactus h2{
+	margin-left: 1rem;
+}
 
 #instagram {
 	padding-bottom: 0rem;
