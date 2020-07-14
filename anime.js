@@ -1,7 +1,5 @@
- $(window).scroll(function () {
-
-        /* Check the location of each desired element */
-        $('.fadein').each(function (i) {
+ function loading(){
+    $('.fadein').each(function (i) {
 
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -11,10 +9,16 @@
 
                 $(this).animate({
                     'opacity': '1'
-                }, 5000);
+                }, 1200);
 
             }
 
         });
+ }
+ $(window).scroll(function () {
+
+        /* Check the location of each desired element */
+        loading();
 
     });
+ $(document).ready(loading);

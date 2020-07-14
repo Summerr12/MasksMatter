@@ -1,4 +1,6 @@
-/**{opacity:0;}*/
+.fadein {
+	opacity:0;
+}
 /*Nav bar*/
 nav a{
 	width:100%;
@@ -98,7 +100,7 @@ body {
 	font-weight: 30em;
 	margin: 0px;
 	padding: 0px;
-	font-family: arial;
+	font-family: 'Josefin Sans', sans-serif;
 }
 /*Mission Statement*/
 main {
@@ -155,6 +157,7 @@ main {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
+	font-family: 'Josefin Sans', sans-serif;
 }
 /*for aligning row*/
 .prize {
@@ -169,7 +172,6 @@ main {
 }
 @media all and (max-width: 666px){
 	.winning {
-		display:flex;
 		flex-direction:column;
 		justify-content: center;
 	}
