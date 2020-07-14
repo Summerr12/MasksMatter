@@ -1,3 +1,4 @@
+/**{opacity:0;}*/
 /*Nav bar*/
 nav a{
 	width:100%;
@@ -30,7 +31,6 @@ nav h3 {
 #simple ,#switch{
 	display: none;
 }
-
 @media all and (max-width: 1148px) {
 	nav {
 		font-size: 1.4rem;
