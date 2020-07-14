@@ -67,10 +67,10 @@ nav h3 {
 	#switch{
 		display: flex;
 	}
-	#simple ~ a{
+	#simple ~ li a{
 		display: flex;
 	}
-	#simple:checked ~ a{
+	#simple:checked ~ li a{
 		display: none;
 	}
 }
@@ -155,7 +155,10 @@ main {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-
+	}
+	#examplevid{
+		min-width: 0 !important;
+		width: 90% !important;
 	}
 }
 /*when shrinking and making image that holds link*/
@@ -227,6 +230,7 @@ details[open] summary {
 	margin-right: 3rem;
 	min-width:35rem;
 }
+
 
 /*donate div area that allows link to work*/
 #donate {
