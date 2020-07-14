@@ -73,7 +73,7 @@ nav h3 {
 }
 /*Most content*/
 body {
-	background-image: url("donedone.jpg");
+	background-image: url("up.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	font-weight: 30em;
@@ -112,25 +112,23 @@ main {
 	flex-direction:row;
 	justify-content: space-around;
 	text-align:center;
+	margin-left: 3rem;
 }
-#donate {
-	text-align: center;
-	font-size:18px;
-}
-.imagelink {
-	margin-top: -8rem;
-}
+
+/*when shrinking and making image that holds link*/
 @media all and (max-width: 650px){
 	.imagelink {
 		width:80%;
 		height: 90%;
 	}
 }
-#winning {
+/*for rowing judging criteria & winning submission*/
+.winning {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
 }
+/*for aligning row*/
 .prize {
 	display:flex;
 	flex-direction:column;
@@ -143,7 +141,7 @@ main {
 	}
 }
 @media all and (max-width: 666px){
-	#winning {
+	.winning {
 		display:flex;
 		flex-direction:column;
 		justify-content: center;
@@ -157,7 +155,6 @@ main {
 }
 ol  {
 	font-size: 1.5rem; 
-	margin-bottom:7rem; 
 	text-align:left;
 }
 ol li{
@@ -165,6 +162,32 @@ ol li{
 }
 ul{
 	font-size: 1.2rem;
+}
+details {
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    outline:none;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
+#examplevid {
+	margin-right: 3rem;
+}
+/*donate div area that allows link to work*/
+#donate {
+	text-align: center;
+	font-size:18px;
 }
 #contactus {
 	background-color:#b2c0ef;
