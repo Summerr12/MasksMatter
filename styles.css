@@ -113,7 +113,7 @@ main {
 }
 @media all and (max-width: 800px) {
 	.missionstate {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 }
 /*Centering each subtitle and img*/
@@ -135,7 +135,14 @@ main {
 	text-align:center;
 	margin-left: 3rem;
 }
+@media all and (max-width: 1150px){
+	.spaceonsameline {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
 
+	}
+}
 /*when shrinking and making image that holds link*/
 @media all and (max-width: 650px){
 	.imagelink {
@@ -203,7 +210,9 @@ details[open] summary {
 }
 #examplevid {
 	margin-right: 3rem;
+	min-width:35rem;
 }
+
 /*donate div area that allows link to work*/
 #donate {
 	text-align: center;
