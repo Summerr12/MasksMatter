@@ -83,7 +83,7 @@ nav h3 {
 		flex-direction: column;
 	}
 	#logo {
-		width:10rem;
+		width:12rem;
 		margin-bottom:0;
 	}
 	#title {
@@ -239,4 +239,9 @@ details[open] summary {
 #instagram {
 	padding-bottom: 0rem;
 	margin: 0 2rem;
+}
+figcaption {
+  margin-left: -3.3rem;
+  padding: 2px;
+  text-align: center;
 }
