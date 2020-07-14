@@ -51,7 +51,6 @@ nav h3 {
 	nav {
 		font-size: 1.4rem;
 	}
-
 }
 @media all and (max-width: 1015px) {
 	nav {
@@ -255,7 +254,7 @@ details[open] summary {
 	margin: 0 2rem;
 }
 figcaption {
-  margin-left: -3.3rem;
+  margin-left: -3.2rem;
   padding: 2px;
   text-align: center;
 }
