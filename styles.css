@@ -59,21 +59,39 @@ nav h3 {
 	}
 }
 /*The main title*/
-#title {
+#logo {
   	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 1000px;
-	text-shadow: 2px 2px blue;
+  	width: 17%;
+  	margin:1rem 0rem;
 }
-@media all and (max-width: 980px) {
+#title {
+	font-size:5.5rem;
+	margin:0;
+	font-family:"Paytone One", sans-serif;
+}
+.toppart {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+@media all and (max-width: 845px) {
+	.toppart {
+		flex-direction: column;
+	}
+	#logo {
+		width:10rem;
+		margin-bottom:0;
+	}
 	#title {
-		width:90%;
+		font-size:4.5rem;
+		text-align:center;
+		line-height: 5rem;
 	}
 }
 /*Most content*/
 body {
-	background-image: url("up.jpg");
+	background-image: url("yaa.png");
 	background-size:cover;
 	background-repeat: no-repeat;
 	font-weight: 30em;
@@ -102,8 +120,8 @@ main {
 }
 .subtitles {
 	font-size:2.5rem;
-	color: #00fffc;
-	text-shadow: 2px 2px blue;
+	font-family:"Paytone One", sans-serif;
+	color: black;
 }
 /*Having the list and video on the same line*/
 /*Affects Design Criteria and Submission Guidelines*/
@@ -133,7 +151,6 @@ main {
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	text-shadow: 2px 2px #3154ff;
 }
 @media all and (max-width: 953px){
 	.prize {
