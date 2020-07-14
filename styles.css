@@ -71,6 +71,9 @@ body {
 	text-align: center;
 	font-size:18px;
 }
+.imagelink {
+	margin-top: -8rem;
+}
 @media all and (max-width: 650px){
 	.imagelink {
 		width:80%;
@@ -115,13 +118,18 @@ body {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
+	text-align:center;
 }
 ol  {
-	font-size: 1.8rem; 
+	font-size: 1.5rem; 
 	margin-bottom:7rem; 
+	text-align:left;
 }
 ol li{
 	margin-bottom:1.4rem; 
+}
+ul {
+	font-size: 1rem;
 }
 #contactus {
 	background-color:#b2c0ef;
