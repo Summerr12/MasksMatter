@@ -164,7 +164,7 @@ main {
 		justify-content: center;
 		align-items: center;
 		margin-left:1.4rem;
-		margin-right: 1.4rem;
+		margin-right: 1.2rem;
 	}
 	#examplevid{
 		min-width: 23rem !important;
@@ -284,4 +284,3 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
-/*hello my name is ayaka i like food*/
