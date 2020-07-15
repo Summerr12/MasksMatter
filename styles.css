@@ -86,7 +86,7 @@ nav h3 {
 /*The main title*/
 #logo {
   	display: block;
-  	width: 17%;
+  	width: 16rem;
   	margin:1rem 0rem;
 }
 #title {
@@ -100,12 +100,12 @@ nav h3 {
 	justify-content: center;
 	align-items: center;
 }
-@media all and (max-width: 845px) {
+@media all and (max-width: 962px) {
 	.toppart {
 		flex-direction: column;
 	}
 	#logo {
-		width:12rem;
+		width:14rem;
 		margin-bottom:0;
 	}
 	#title {
