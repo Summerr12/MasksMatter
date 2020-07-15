@@ -150,6 +150,10 @@ main {
 	font-family:"Paytone One", sans-serif;
 	color: black;
 }
+#maillink {
+	text-decoration: none;
+	color:#c6fbff;
+}
 /*Having the list and video on the same line*/
 /*Affects Design Criteria and Submission Guidelines*/
 .spaceonsameline {
