@@ -1,6 +1,17 @@
+/*animations to all*/
 .fadein {
 	opacity:0;
 }
+body {
+	background-image: url("yaa.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-weight: 30em;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 /*Nav bar*/
 nav a{
 	width:100%;
@@ -25,10 +36,8 @@ nav {
 	list-style: none;
 }
 nav a:hover {
-/*	background-color: #1111;
-*/	color: black;
+	color: black;
 }
-
 nav a::before{
 	content:'';
 	display: block;
@@ -47,7 +56,6 @@ nav h3 {
 #simple ,#switch{
 	display: none;
 }
-
 @media all and (max-width: 1148px) {
 	nav {
 		font-size: 1.4rem;
@@ -83,6 +91,7 @@ nav h3 {
 		content: "Open";
 	}
 }
+
 /*The main title*/
 #logo {
   	display: block;
@@ -114,20 +123,8 @@ nav h3 {
 		line-height: 5rem;
 	}
 }
-/*Most content*/
-body {
-	background-image: url("yaa.png");
-	background-size:cover;
-	background-repeat: no-repeat;
-	font-weight: 30em;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Josefin Sans', sans-serif;
-}
+
 /*Mission Statement*/
-main {
-	text-align: center;
-}
 .missionstate {
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
@@ -150,6 +147,7 @@ main {
 	font-family:"Paytone One", sans-serif;
 	color: black;
 }
+/*Dropbox*/
 #maillink {
 	text-decoration: none;
 	color:#c6fbff;
