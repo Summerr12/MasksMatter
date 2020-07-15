@@ -137,16 +137,16 @@ main {
 }
 @media all and (max-width: 800px) {
 	.missionstate {
-		font-size: 1.4rem;
+		font-size: 1.6rem;
 	}
 }
 /*Centering each subtitle and img*/
 .centertitleimg {
 	text-align: center;
-	font-size:20px;
+	font-size:21px;
 }
 .subtitles {
-	font-size:2.5rem;
+	font-size:2.6rem;
 	font-family:"Paytone One", sans-serif;
 	color: black;
 }
@@ -216,7 +216,7 @@ main {
 		justify-content: center;
 	}
 	.prize{
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 }
 .prize h2 {
