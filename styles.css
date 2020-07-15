@@ -163,6 +163,8 @@ main {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
+		margin-left:1.4rem;
+		margin-right: 1.4rem;
 	}
 	#examplevid{
 		min-width: 23rem !important;
