@@ -1,4 +1,4 @@
-/*animations to all*/
+/*all*/
 .fadein {
 	opacity:0;
 }
@@ -147,57 +147,16 @@ nav h3 {
 	font-family:"Paytone One", sans-serif;
 	color: black;
 }
-/*Dropbox*/
-#maillink {
-	text-decoration: none;
-	color:#c6fbff;
-}
-/*Having the list and video on the same line*/
-/*Affects Design Criteria and Submission Guidelines*/
-.spaceonsameline {
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	text-align:center;
-}
-@media all and (max-width: 1150px){
-	.spaceonsameline {
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-		margin-left:1.4rem;
-		margin-right: 1.2rem;
-	}
-	#examplevid{
-		min-width: 23rem !important;
-		width: 100% !important;
-	}
-}
-.imagelink {
-	 transition: transform .2s; /* Animation */
-	 margin: 0 auto;
-}
-.imagelink:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-/*when shrinking and making image that holds link*/
-@media all and (max-width: 650px){
-	.imagelink {
-		width:80%;
-		height: 90%;
-	}
-}
+/*THE WINNING SUBMISSION*/
+/*The RULES*/
+/*Judging Criteria*/
 /*for rowing judging criteria & winning submission*/
 .winning {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
 	font-family: 'Josefin Sans', sans-serif;
-	
-	
 }
-
-/*for aligning row*/
 .prize {
 	display:flex;
 	flex-direction:column;
@@ -220,15 +179,12 @@ nav h3 {
 .prize h2 {
 	margin:0;
 }
-ol  {
-	font-size: 1.5rem; 
-	text-align:left;
-}
-ol li{
-	margin-bottom:1.4rem; 
-}
-ul{
-	font-size: 1.2rem;
+
+
+/*Dropbox*/
+#maillink {
+	text-decoration: none;
+	color:#c6fbff;
 }
 details {
     padding: .5em .5em 0;
@@ -250,21 +206,70 @@ details[open] {
 details[open] summary {
     margin-bottom: .5em;
 }
+ol  {
+	font-size: 1.5rem; 
+	text-align:left;
+}
+ol li{
+	margin-bottom:1.4rem; 
+}
+ul{
+	font-size: 1.2rem;
+}
+
+/*Having the list and video on the same line*/
+/*EXAMPLE VIDEO*/
+/*Affects Design Criteria and Submission Guidelines*/
+.spaceonsameline {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	text-align:center;
+}
 #examplevid {
 	margin-right: 3rem;
 	min-width:37rem;
 }
+@media all and (max-width: 1150px){
+	.spaceonsameline {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin-left:1.4rem;
+		margin-right: 1.2rem;
+	}
+	#examplevid{
+		min-width: 23rem !important;
+		width: 100% !important;
+	}
+}
 
 
-/*donate div area that allows link to work*/
+/*DONATE AND APPLY HERE ICON*/
 #donate {
 	text-align: center;
 	font-size:18px;
 }
+.imagelink {
+	 transition: transform .2s; /* Animation */
+	 margin: 0 auto;
+}
+.imagelink:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/*when shrinking and making image that holds link*/
+@media all and (max-width: 650px){
+	.imagelink {
+		width:80%;
+		height: 90%;
+	}
+}
+/*text under donate*/
 #afterdonate{
 	text-align: center;
 	font-size: 1.6rem;
 }
+
 #contactus {
 	background-color:#137d97;
 	height:4rem;
@@ -286,3 +291,5 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
+/*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
