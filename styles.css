@@ -174,7 +174,8 @@ figcaption span {
 }
 .gitbigger {
 	transition: transform .2s; /* Animation */
-	 margin: 10rem;
+	margin: 10rem;
+/*	overflow-x: hidden;*/
 }
 .getbigger:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -189,7 +190,7 @@ figcaption span {
 		height:90%;
 	}
 }
-@media all and (max-width: 640px){
+@media all and (max-width: 650px){
 	.imagelink {
 		width: 80%;
 	}
