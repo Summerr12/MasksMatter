@@ -20,6 +20,7 @@ nav a{
 	flex-direction: column;
 	justify-content:center;
 	color: #084251;
+	padding:0 .6rem;
 }
 nav {
 	background-color:#c6fbff;
@@ -65,7 +66,7 @@ nav h3 {
 }
 @media all and (max-width: 1015px) {
 	nav {
-		font-size: 1.3rem;
+		font-size: 1.25rem;
 	}
 }
 @media all and (max-width: 556px) {
