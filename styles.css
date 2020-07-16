@@ -258,6 +258,11 @@ ul{
 	margin-right: 3rem;
 	min-width:37rem;
 }
+figcaption {
+  margin-left: -3.2rem;
+  padding: 2px;
+  text-align: center;
+}
 @media all and (max-width: 1150px){
 	.spaceonsameline {
 		flex-direction: column-reverse;
@@ -298,6 +303,7 @@ ul{
 	font-size: 1.6rem;
 }
 
+/*BOTTOM NAV BAR*/
 #contactus {
 	background-color:#137d97;
 	height:4rem;
@@ -309,15 +315,8 @@ ul{
 #contactus h2{
 	margin-left: 1rem;
 }
-
 #instagram {
 	padding-bottom: 0rem;
 	margin: 0 2rem;
 }
-figcaption {
-  margin-left: -3.2rem;
-  padding: 2px;
-  text-align: center;
-}
-
 /*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
