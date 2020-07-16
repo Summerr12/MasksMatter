@@ -1,5 +1,5 @@
 .border span {
-	border:2px solid #084251;
+	border:4px solid #185b6d;
 	padding:1rem;
 }
 
@@ -143,7 +143,7 @@ li{
 	}
 }
 .icondiv {
-	padding:2rem;
+	padding:1rem;
 }
 /*Having the list and video on the same line*/
 /*EXAMPLE VIDEO*/
@@ -159,7 +159,6 @@ iframe, #examplevid {
 	min-width:37rem;
 }
 figcaption {
-  padding: 2px;
   text-align: center;
 }
 figcaption span {
