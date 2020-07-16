@@ -103,7 +103,7 @@ ul{
 }
 @media all and (max-width: 1400px){
 	.icons{
-		width:25rem;
+		width:20rem;
 	}
 }
 @media all and (max-width: 780px){
@@ -111,10 +111,14 @@ ul{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		padding:1rem;
 	}
 	.icons {
 		width:55%;
 	}
+}
+.icondiv {
+	padding:2rem;
 }
 /*Having the list and video on the same line*/
 /*EXAMPLE VIDEO*/
@@ -159,7 +163,7 @@ figcaption {
 	 margin: 0 auto;
 }
 .imagelink:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 /*when shrinking and making image that holds link*/
 @media all and (max-width: 650px){
