@@ -95,9 +95,11 @@ nav li:last-child:hover::before, nav li:last-child:hover::after{
 	}
 	#simple ~ li{
 		display: flex;
+		transition: transform .5s, height .5s; /* Animation */
 	}
 	#simple:checked ~ li{
-		display: none;
+		transform: scale(0);
+		height: 0;
 	}
 	#simple+label span{
 		background-color:#c6fbff;

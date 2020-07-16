@@ -1,5 +1,6 @@
 .border span {
-	border:2px dashed #084251;
+	border:2px solid #084251;
+	padding:1rem;
 }
 
 /*Mission Statement*/
@@ -137,6 +138,11 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+figcaption span {
+	padding:.5rem;
+	display:inline-block;
+}
+
 @media all and (max-width: 1150px){
 	.spaceonsameline {
 		flex-direction: column-reverse;
