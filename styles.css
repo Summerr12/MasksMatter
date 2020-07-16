@@ -35,7 +35,7 @@
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	font-size: 3rem;
+	font-size: 2.1rem;
 }
 @media all and (max-width: 1200px){
 	.prize {
@@ -92,7 +92,32 @@ ol li{
 }
 ul{
 	font-size: 1.2rem;
+	text-align: center;
 }
+li{
+	display: inline-block;
+	width: 100%
+}
+#therules ol {
+	font-size: 1.5rem; 
+	text-align:left;
+	width: 50%;
+}
+#therules li{
+	margin-bottom:1.4rem; 
+	display: inline-block;
+	width: 100%;
+}
+@media all and (max-width:670px){
+	#therules ol{
+		width: 80%;
+	}
+	#therules li{
+		width:100%;
+	}
+}
+
+
 .iconflex {
 	display:flex;
 	flex-direction: row;
