@@ -12,7 +12,6 @@ body {
 
 /*Nav bar*/
 nav {
-	background-color:#c6fbff;
 	margin: 0px;
 	display:flex;
 	font-size: 1.5rem;
@@ -24,6 +23,7 @@ nav {
 	list-style: none;
 }
 nav li {
+	background-color:#c6fbff;
 	width:100%;
 	height:5rem;
 	text-align: center;
@@ -77,17 +77,7 @@ nav li:last-child:hover::before, nav li:last-child:hover::after{
 #simple ,#switch{
 	display: none;
 }
-@media all and (max-width: 1148px) {
-	nav {
-		font-size: 1.4rem;
-	}
-}
-@media all and (max-width: 1015px) {
-	nav {
-		font-size: 1.3rem;
-	}
-}
-@media all and (max-width: 556px) {
+@media all and (max-width: 650px) {
 	nav {
 		font-size: 1.1rem;
 		flex-direction: column-reverse;
@@ -109,13 +99,34 @@ nav li:last-child:hover::before, nav li:last-child:hover::after{
 	#simple:checked ~ li{
 		display: none;
 	}
+	#simple+label span{
+		background-color:#c6fbff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0.3rem;
+		width: 5rem;
+		height: 2rem;
+		border-radius: 0 0 1rem 1rem;
+	}
 	#simple+label span::after{
-		content: "Close";
-		margin-left: 0.5rem; 
+		content: "V";
 		font-family: Arial;
+		font-weight: bold;
+		transform: rotate(180deg) scaleX(-1);
 	}
 	#simple:checked +label span::after{
-		content: "Open";
+		transform: rotate(0deg) scaleX(-1);
+	}
+}
+@media all and (max-width: 1015px) {
+	nav {
+		font-size: 1.3rem;
+	}
+}
+@media all and (max-width: 1148px) {
+	nav {
+		font-size: 1.4rem;
 	}
 }
 
