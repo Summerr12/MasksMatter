@@ -221,7 +221,30 @@ ol li{
 ul{
 	font-size: 1.2rem;
 }
-
+.iconflex {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.icons {
+	width:30rem;
+}
+@media all and (max-width: 1400px){
+	.icons{
+		width:25rem;
+	}
+}
+@media all and (max-width: 1000px){
+	.iconflex {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.icons {
+		width:60%;
+	}
+}
 /*Having the list and video on the same line*/
 /*EXAMPLE VIDEO*/
 /*Affects Design Criteria and Submission Guidelines*/
