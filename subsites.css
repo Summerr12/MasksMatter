@@ -6,6 +6,8 @@
 #therules li{
 	margin-bottom:1.4rem; 
 	width: 100%;
+	display: list-item;
+
 }
 @media all and (max-width:670px){
 	#therules ul{
