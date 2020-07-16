@@ -181,7 +181,7 @@ figcaption span {
 }
 /*when shrinking and making image that holds link*/
 .imagelink {
-	 width:60%;
+	 width:40rem;
 }
 @media all and (max-width: 850px){
 	.imagelink {
