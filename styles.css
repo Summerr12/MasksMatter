@@ -99,7 +99,7 @@ ul{
 	align-items: center;
 }
 .icons {
-	width:30rem;
+	width:25rem;
 }
 @media all and (max-width: 1400px){
 	.icons{
@@ -113,7 +113,7 @@ ul{
 		align-items: center;
 	}
 	.icons {
-		width:60%;
+		width:55%;
 	}
 }
 /*Having the list and video on the same line*/
