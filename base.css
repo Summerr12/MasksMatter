@@ -40,7 +40,7 @@ nav li::before, nav li::after{
 	width: 0%;
 	transition: all ease-in-out 300ms;;
 	position: relative;
-	top: 0;
+	top:0;
 }
 nav li:hover::before, nav li:hover::after{
 	width:100%;
