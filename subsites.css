@@ -45,3 +45,13 @@
 		padding:1rem;
 	}
 }
+
+.judging{
+	display: flex;
+	margin: 0;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+
+
+}
