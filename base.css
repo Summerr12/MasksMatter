@@ -51,6 +51,10 @@ nav h3 {
 	margin:0px;
 	padding-top: 0.7rem;
 }
+#home {
+	max-width: 80px;
+	max-height: 75px;
+}
 #simple ,#switch{
 	display: none;
 }
