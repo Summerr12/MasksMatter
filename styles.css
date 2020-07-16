@@ -2,6 +2,9 @@
 .fadein {
 	opacity:0;
 }
+.border span {
+	border:2px dashed #084251;
+}
 body {
 	background-image: url("yaa.png");
 	background-size:cover;
@@ -10,6 +13,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size:21px;
 }
 
 /*Nav bar*/
@@ -137,11 +142,6 @@ nav h3 {
 		font-size: 1.6rem;
 	}
 }
-/*Centering each subtitle and img*/
-.centertitleimg {
-	text-align: center;
-	font-size:21px;
-}
 .subtitles {
 	font-size:2.6rem;
 	font-family:"Paytone One", sans-serif;
@@ -155,7 +155,11 @@ nav h3 {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
+	align-items: center;
 	font-family: 'Josefin Sans', sans-serif;
+}
+.winning * {
+    margin: 0;
 }
 .prize {
 	display:flex;
@@ -174,6 +178,7 @@ nav h3 {
 	}
 	.prize{
 		font-size: 1.4rem;
+		padding:1rem;
 	}
 }
 .prize h2 {
