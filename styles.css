@@ -25,6 +25,7 @@
 	justify-content: space-around;
 	align-items: center;
 	font-family: 'Josefin Sans', sans-serif;
+	padding:3rem;
 }
 #podium * {
     margin: 0;
@@ -33,18 +34,20 @@
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
+	font-size: 3rem;
 }
-@media all and (max-width: 953px){
+@media all and (max-width: 1200px){
 	.prize {
-		font-size: .9rem;
+		font-size: 1.7rem;
 	}
 }
-@media all and (max-width: 666px){
+@media all and (max-width: 720px){
 	#podium {
 		flex-direction:column;
 		justify-content: center;
 	}
 	.prize{
+		font-size: 3rem;
 		font-size: 1.4rem;
 		padding:1rem;
 	}

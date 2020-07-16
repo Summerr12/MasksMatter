@@ -138,7 +138,7 @@ header img {
 }
 
 /*Footer*/
-#contactus {
+footer {
 	background-color:#137d97;
 	height:4rem;
 	display:flex;
@@ -146,7 +146,7 @@ header img {
 	justify-content: flex-start;
 	align-items: center;
 }
-#contactus h2{
+footer h2{
 	margin-left: 1rem;
 }
 #instagram {
