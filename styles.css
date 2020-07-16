@@ -18,7 +18,11 @@ body {
 }
 
 /*Nav bar*/
-nav a{
+#home {
+	max-width: 80px;
+	max-height: 75px;
+}
+nav a {
 	width:100%;
 	text-align: center;
 	text-decoration: none;
@@ -68,12 +72,17 @@ nav h3 {
 }
 @media all and (max-width: 1015px) {
 	nav {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 }
-@media all and (max-width: 556px) {
+@media all and (max-width: 900px) {
 	nav {
-		font-size: 1.1rem;
+		font-size: 1.2rem;
+	}
+}
+@media all and (max-width: 760px) {
+	nav {
+		font-size: 1.3rem;
 		flex-direction: column-reverse;
 		height: auto !important;
 		padding: 0;
