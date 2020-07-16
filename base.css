@@ -54,7 +54,7 @@ nav a{
 	flex-direction: column;
 	justify-content:center;
 	color: #084251;
-	padding:0 .6rem;
+	padding:0;
 }
 nav a:hover {
 	color: black;
@@ -91,16 +91,22 @@ nav li:last-child:hover::before, nav li:last-child:hover::after{
 	nav {
 		font-size: 1.1rem;
 		flex-direction: column-reverse;
+		align-items: center;
 		height: auto !important;
 		padding: 0;
+	}
+	nav li, nav li a {
+		width: 100%;
+		max-width: 100% !important;
+		padding: 0 !important;
 	}
 	#switch{
 		display: flex;
 	}
-	#simple ~ li a{
+	#simple ~ li{
 		display: flex;
 	}
-	#simple:checked ~ li a{
+	#simple:checked ~ li{
 		display: none;
 	}
 	#simple+label span::after{
