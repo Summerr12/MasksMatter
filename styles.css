@@ -1,6 +1,7 @@
 .border span {
 	border:4px solid #185b6d;
 	padding:1rem;
+	display:inline-block;
 }
 
 /*Mission Statement*/
@@ -25,7 +26,6 @@
 	flex-direction:row;
 	justify-content: space-around;
 	align-items: center;
-	font-family: 'Josefin Sans', sans-serif;
 	padding:3rem;
 }
 #podium * {
@@ -56,7 +56,34 @@
 .prize h2 {
 	margin:0;
 }
-
+#criteria{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+}
+.catagory {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+@media all and (max-width: 1130px){
+	.catagory {
+		font-size: 1.2rem;
+	}
+}
+@media all and (max-width: 890px){
+	#criteria {
+		flex-direction:column;
+		justify-content: center;
+	}
+	.catagory{
+		font-size: 3rem;
+		font-size: 1.6rem;
+		padding:1rem;
+	}
+}
 
 /*Dropbox*/
 #maillink {
@@ -102,12 +129,12 @@ ul{
 .icons {
 	width:25rem;
 }
-@media all and (max-width: 1400px){
+@media all and (max-width: 1340px){
 	.icons{
-		width:20rem;
+		width:17rem;
 	}
 }
-@media all and (max-width: 780px){
+@media all and (max-width: 940px){
 	.iconflex {
 		flex-direction: column;
 		justify-content: center;
