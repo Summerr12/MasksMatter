@@ -4,7 +4,7 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 2rem auto auto;
 }
 
 /* Hide the images by default */
@@ -91,4 +91,7 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+#dots {
+  margin-bottom: 5rem;
 }
