@@ -149,7 +149,7 @@ figcaption span {
 
 @media all and (max-width: 1150px){
 	.spaceonsameline {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-left:1.4rem;
@@ -188,6 +188,7 @@ figcaption span {
 	text-align: center;
 	font-size: 1.6rem;
 }
-
-
+#smallicon {
+	width:10px;
+}
 /*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
