@@ -188,6 +188,7 @@ figcaption span {
 	text-align: center;
 	font-size: 1.6rem;
 }
-
-
+#smallicon {
+	width:10px;
+}
 /*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
