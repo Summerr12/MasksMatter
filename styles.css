@@ -168,6 +168,10 @@ figcaption span {
 	text-align: center;
 	font-size:18px;
 }
+#apply {
+	/*margin-top: -60px;*/
+	max-width: 750px;
+}
 .imagelink {
 	 transition: transform .2s; /* Animation */
 	 margin: 0 auto;
