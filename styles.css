@@ -1,132 +1,5 @@
-/*all*/
-.fadein {
-	opacity:0;
-}
 .border span {
 	border:2px dashed #084251;
-}
-body {
-	background-image: url("yaa.png");
-	background-size:cover;
-	background-repeat: no-repeat;
-	font-weight: 30em;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	font-size:21px;
-}
-
-/*Nav bar*/
-nav a{
-	width:100%;
-	text-align: center;
-	text-decoration: none;
-	height:3.7rem;
-	display:flex;
-	flex-direction: column;
-	justify-content:center;
-	color: #084251;
-}
-nav {
-	background-color:#c6fbff;
-	margin: 0px;
-	display:flex;
-	font-size: 1.5rem;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	align-content: center;
-	height:3.7rem;
-	padding: 20px;
-	list-style: none;
-}
-nav a:hover {
-	color: black;
-}
-nav a::before{
-	content:'';
-	display: block;
-	height: 5px;
-	background-color: #444;
-	width: 0%;
-	transition: all ease-in-out 300ms;;
-}
-nav a:hover::before{
-	width:100%;
-}
-nav h3 {
-	margin:0px;
-	padding-top: 0.7rem;
-}
-#simple ,#switch{
-	display: none;
-}
-@media all and (max-width: 1148px) {
-	nav {
-		font-size: 1.4rem;
-	}
-}
-@media all and (max-width: 1015px) {
-	nav {
-		font-size: 1.3rem;
-	}
-}
-@media all and (max-width: 556px) {
-	nav {
-		font-size: 1.1rem;
-		flex-direction: column-reverse;
-		height: auto !important;
-		padding: 0;
-	}
-	#switch{
-		display: flex;
-	}
-	#simple ~ li a{
-		display: flex;
-	}
-	#simple:checked ~ li a{
-		display: none;
-	}
-	#simple+label span::after{
-		content: "Close";
-		margin-left: 0.5rem; 
-		font-family: Arial;
-	}
-	#simple:checked +label span::after{
-		content: "Open";
-	}
-}
-
-/*The main title*/
-#logo {
-  	display: block;
-  	width: 16rem;
-  	margin:1rem 0rem;
-}
-#title {
-	font-size:5.5rem;
-	margin:0;
-	font-family:"Paytone One", sans-serif;
-}
-.toppart {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-@media all and (max-width: 962px) {
-	.toppart {
-		flex-direction: column;
-	}
-	#logo {
-		width:14rem;
-		margin-bottom:0;
-	}
-	#title {
-		font-size:4.5rem;
-		text-align:center;
-		line-height: 5rem;
-	}
 }
 
 /*Mission Statement*/
@@ -142,23 +15,18 @@ nav h3 {
 		font-size: 1.6rem;
 	}
 }
-.subtitles {
-	font-size:2.6rem;
-	font-family:"Paytone One", sans-serif;
-	color: black;
-}
 /*THE WINNING SUBMISSION*/
 /*The RULES*/
 /*Judging Criteria*/
 /*for rowing judging criteria & winning submission*/
-.winning {
+#podium {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
 	align-items: center;
 	font-family: 'Josefin Sans', sans-serif;
 }
-.winning * {
+#podium * {
     margin: 0;
 }
 .prize {
@@ -172,7 +40,7 @@ nav h3 {
 	}
 }
 @media all and (max-width: 666px){
-	.winning {
+	#podium {
 		flex-direction:column;
 		justify-content: center;
 	}
@@ -254,7 +122,7 @@ ul{
 	justify-content: space-around;
 	text-align:center;
 }
-#examplevid {
+iframe, #examplevid {
 	margin-right: 3rem;
 	min-width:37rem;
 }
@@ -271,7 +139,7 @@ figcaption {
 		margin-left:1.4rem;
 		margin-right: 1.2rem;
 	}
-	#examplevid{
+	iframe, #examplevid{
 		min-width: 23rem !important;
 		width: 100% !important;
 		margin:0;
@@ -304,20 +172,5 @@ figcaption {
 	font-size: 1.6rem;
 }
 
-/*BOTTOM NAV BAR*/
-#contactus {
-	background-color:#137d97;
-	height:4rem;
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-}
-#contactus h2{
-	margin-left: 1rem;
-}
-#instagram {
-	padding-bottom: 0rem;
-	margin: 0 2rem;
-}
+
 /*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
