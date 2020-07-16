@@ -1,15 +1,16 @@
-#therules ol {
+#therules ul {
 	font-size: 1.5rem; 
 	text-align:left;
 	width: 60%;
 }
 #therules li{
 	margin-bottom:1.4rem; 
-	display: inline-block;
 	width: 100%;
+	display: list-item;
+
 }
 @media all and (max-width:670px){
-	#therules ol{
+	#therules ul{
 		width: 80%;
 	}
 	#therules li{
