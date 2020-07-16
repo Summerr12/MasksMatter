@@ -170,7 +170,7 @@ figcaption span {
 }
 #apply {
 	/*margin-top: -60px;*/
-	max-width: 750px;
+	max-width: 700px;
 }
 .imagelink {
 	 transition: transform .2s; /* Animation */
@@ -184,8 +184,23 @@ figcaption span {
 @media all and (max-width: 850px){
 	.imagelink {
 		width:80%;
-		height: 90%;
+		height:90%;
 	}
+}
+@media all and (max-width: 640px){
+	.imagelink {
+		width: 10%;
+		height: 10%;
+	}
+	/*#apply{
+		width: 10px;
+		height: 10px;
+	}*/
+	/*#iconapply{
+		width: 10px;
+		height: 10px;
+		background-color: black;
+	}*/
 }
 /*text under donate*/
 #afterdonate{
