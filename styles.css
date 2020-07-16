@@ -56,34 +56,6 @@
 .prize h2 {
 	margin:0;
 }
-#criteria{
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	align-items: center;
-}
-.catagory {
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
-	font-size: 1.5rem;
-}
-@media all and (max-width: 1130px){
-	.catagory {
-		font-size: 1.2rem;
-	}
-}
-@media all and (max-width: 890px){
-	#criteria {
-		flex-direction:column;
-		justify-content: center;
-	}
-	.catagory{
-		font-size: 3rem;
-		font-size: 1.6rem;
-		padding:1rem;
-	}
-}
 
 /*Dropbox*/
 #maillink {
@@ -124,24 +96,6 @@ ul{
 li{
 	display: inline-block;
 	width: 100%
-}
-#therules ol {
-	font-size: 1.5rem; 
-	text-align:left;
-	width: 50%;
-}
-#therules li{
-	margin-bottom:1.4rem; 
-	display: inline-block;
-	width: 100%;
-}
-@media all and (max-width:670px){
-	#therules ol{
-		width: 80%;
-	}
-	#therules li{
-		width:100%;
-	}
 }
 
 .iconflex {
