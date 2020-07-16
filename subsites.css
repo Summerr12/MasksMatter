@@ -1,19 +1,19 @@
-#therules ul {
+.therules ul {
 	font-size: 1.5rem; 
 	text-align:left;
 	width: 60%;
 }
-#therules li{
+.therules li{
 	margin-bottom:1.4rem; 
 	width: 100%;
 	display: list-item;
 
 }
 @media all and (max-width:670px){
-	#therules ul{
+	.therules ul{
 		width: 80%;
 	}
-	#therules li{
+	.therules li{
 		width:100%;
 	}
 }
