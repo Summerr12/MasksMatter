@@ -45,3 +45,16 @@
 		padding:1rem;
 	}
 }
+
+.judging ol{
+	display: flex;
+	margin: 0;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.judging details ol{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
