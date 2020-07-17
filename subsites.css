@@ -58,3 +58,45 @@
 	flex-direction: column;
 	text-align: left;
 }
+
+#criteria ol {
+	width: 90vw;
+}
+
+#criteria details div {
+	animation-name: growDown;
+	animation-fill-mode: both;
+	animation-duration: 5s;
+}
+
+#criteria details[open] div {
+	animation-name: growUp;
+}
+
+@keyframes growUp {
+	from {
+		width: 0;
+		/*transform: scaleY(0);*/
+		max-height: 0;
+		overflow: hidden;
+	}
+	to {
+		width: 100%;
+		max-height: 100vh;
+		/*transform: scaleY(1);*/
+	}
+}
+
+@keyframes growDown {
+	from {
+		width: 100%;
+		max-height: 100vh;
+		/*transform: scaleY(1);*/
+	}
+	to {
+		width: 0;
+		/*transform: scaleY(0);*/
+		max-height: 0;
+		overflow: hidden;
+	}
+}

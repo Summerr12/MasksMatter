@@ -227,3 +227,9 @@ figcaption span {
 		width:13rem;
 	}
 }
+
+@keyframes {
+	to {
+		width: 100%;
+	}
+}
