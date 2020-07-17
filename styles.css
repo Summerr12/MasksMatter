@@ -1,133 +1,10 @@
-.fadein {
-	opacity:0;
-}
-/*Nav bar*/
-nav a{
-	width:100%;
-	text-align: center;
-	text-decoration: none;
-	height:3.7rem;
-	display:flex;
-	flex-direction: column;
-	justify-content:center;
-	color: #084251;
-}
-nav {
-	background-color:#c6fbff;
-	margin: 0px;
-	display:flex;
-	font-size: 1.5rem;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	align-content: center;
-	height:3.7rem;
-	padding: 20px;
-	list-style: none;
-}
-nav a:hover {
-/*	background-color: #1111;
-*/	color: black;
+.border span {
+	border:4px solid #185b6d;
+	padding:1rem;
+	display:inline-block;
 }
 
-nav a::before{
-	content:'';
-	display: block;
-	height: 5px;
-	background-color: #444;
-	width: 0%;
-	transition: all ease-in-out 300ms;;
-}
-nav a:hover::before{
-	width:100%;
-}
-nav h3 {
-	margin:0px;
-	padding-top: 0.7rem;
-}
-#simple ,#switch{
-	display: none;
-}
-
-@media all and (max-width: 1148px) {
-	nav {
-		font-size: 1.4rem;
-	}
-}
-@media all and (max-width: 1015px) {
-	nav {
-		font-size: 1.3rem;
-	}
-}
-@media all and (max-width: 556px) {
-	nav {
-		font-size: 1.1rem;
-		flex-direction: column-reverse;
-		height: auto !important;
-		padding: 0;
-	}
-	#switch{
-		display: flex;
-	}
-	#simple ~ li a{
-		display: flex;
-	}
-	#simple:checked ~ li a{
-		display: none;
-	}
-	#simple+label span::after{
-		content: "Close";
-		margin-left: 0.5rem; 
-		font-family: Arial;
-	}
-	#simple:checked +label span::after{
-		content: "Open";
-	}
-}
-/*The main title*/
-#logo {
-  	display: block;
-  	width: 16rem;
-  	margin:1rem 0rem;
-}
-#title {
-	font-size:5.5rem;
-	margin:0;
-	font-family:"Paytone One", sans-serif;
-}
-.toppart {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-@media all and (max-width: 962px) {
-	.toppart {
-		flex-direction: column;
-	}
-	#logo {
-		width:14rem;
-		margin-bottom:0;
-	}
-	#title {
-		font-size:4.5rem;
-		text-align:center;
-		line-height: 5rem;
-	}
-}
-/*Most content*/
-body {
-	background-image: url("yaa.png");
-	background-size:cover;
-	background-repeat: no-repeat;
-	font-weight: 30em;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Josefin Sans', sans-serif;
-}
 /*Mission Statement*/
-main {
-	text-align: center;
-}
 .missionstate {
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
@@ -140,97 +17,50 @@ main {
 		font-size: 1.6rem;
 	}
 }
-/*Centering each subtitle and img*/
-.centertitleimg {
-	text-align: center;
-	font-size:21px;
-}
-.subtitles {
-	font-size:2.6rem;
-	font-family:"Paytone One", sans-serif;
-	color: black;
-}
-#maillink {
-	text-decoration: none;
-	color:#c6fbff;
-}
-/*Having the list and video on the same line*/
-/*Affects Design Criteria and Submission Guidelines*/
-.spaceonsameline {
-	display:flex;
-	flex-direction:row;
-	justify-content: space-around;
-	text-align:center;
-}
-@media all and (max-width: 1150px){
-	.spaceonsameline {
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-		margin-left:1.4rem;
-		margin-right: 1.2rem;
-	}
-	#examplevid{
-		min-width: 23rem !important;
-		width: 100% !important;
-	}
-}
-.imagelink {
-	 transition: transform .2s; /* Animation */
-	 margin: 0 auto;
-}
-.imagelink:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-/*when shrinking and making image that holds link*/
-@media all and (max-width: 650px){
-	.imagelink {
-		width:80%;
-		height: 90%;
-	}
-}
+/*THE WINNING SUBMISSION*/
+/*The RULES*/
+/*Judging Criteria*/
 /*for rowing judging criteria & winning submission*/
-.winning {
+#podium {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-around;
-	font-family: 'Josefin Sans', sans-serif;
-	
-	
+	align-items: center;
+	padding:3rem;
 }
-
-/*for aligning row*/
+#podium * {
+    margin: 0;
+}
 .prize {
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
+	font-size: 2.1rem;
 }
-@media all and (max-width: 953px){
+@media all and (max-width: 1200px){
 	.prize {
-		font-size: .9rem;
+		font-size: 1.7rem;
 	}
 }
-@media all and (max-width: 666px){
-	.winning {
+@media all and (max-width: 720px){
+	#podium {
 		flex-direction:column;
 		justify-content: center;
 	}
 	.prize{
+		font-size: 3rem;
 		font-size: 1.4rem;
+		padding:1rem;
 	}
 }
 .prize h2 {
 	margin:0;
 }
-ol  {
-	font-size: 1.5rem; 
-	text-align:left;
-}
-ol li{
-	margin-bottom:1.4rem; 
-}
-ul{
-	font-size: 1.2rem;
+
+/*Dropbox*/
+#maillink {
+	text-decoration: none;
+	color:#0082de;
 }
 details {
     padding: .5em .5em 0;
@@ -252,39 +82,154 @@ details[open] {
 details[open] summary {
     margin-bottom: .5em;
 }
-#examplevid {
+ol  {
+	font-size: 1.5rem; 
+	text-align:left;
+}
+ol li{
+	margin-bottom:1.4rem; 
+}
+ul{
+	font-size: 1.2rem;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	width: 100%
+}
+
+.iconflex {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.icons {
+	width:25rem;
+}
+@media all and (max-width: 1340px){
+	.icons{
+		width:17rem;
+	}
+}
+@media all and (max-width: 940px){
+	.iconflex {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding:1rem;
+	}
+	.icons {
+		width:55%;
+	}
+}
+.icondiv {
+	padding:1rem;
+}
+/*Having the list and video on the same line*/
+/*EXAMPLE VIDEO*/
+/*Affects Design Criteria and Submission Guidelines*/
+.spaceonsameline {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	text-align:center;
+}
+iframe, #examplevid {
 	margin-right: 3rem;
 	min-width:37rem;
 }
+figcaption {
+  text-align: center;
+}
+figcaption span {
+	padding:.5rem;
+	display:inline-block;
+}
+
+@media all and (max-width: 1150px){
+	.spaceonsameline {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left:1.4rem;
+		margin-right: 1.2rem;
+	}
+	iframe, #examplevid{
+		min-width: 23rem !important;
+		width: 100% !important;
+		margin:0;
+	}
+}
 
 
-/*donate div area that allows link to work*/
+/*DONATE AND APPLY HERE ICON*/
 #donate {
 	text-align: center;
 	font-size:18px;
 }
+#apply {
+	/*margin-top: -60px;*/
+	max-width: 700px;
+}
+.gitbigger {
+	transition: transform .2s; /* Animation */
+	margin: 10rem;
+/*	overflow-x: hidden;*/
+}
+.getbigger:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/*when shrinking and making image that holds link*/
+.imagelink {
+	 width:40rem;
+}
+@media all and (max-width: 850px){
+	.imagelink {
+		width:80%;
+		height:90%;
+	}
+}
+@media all and (max-width: 650px){
+	.imagelink {
+		width: 80%;
+	}
+}
+/*text under donate*/
 #afterdonate{
 	text-align: center;
 	font-size: 1.6rem;
 }
-#contactus {
-	background-color:#137d97;
-	height:4rem;
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+#smallicon {
+	width:10px;
 }
-#contactus h2{
-	margin-left: 1rem;
+/*RENAME APPLICATION METHODS AS COMPETITION BRACKETS*/
+.evalicon {
+	width:20rem;
+}
+#criteria {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: flex-start;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+@media all and (max-width: 1164px){
+	#criteria {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin:0;
+	}
+	.evalicon {
+		width:13rem;
+	}
 }
 
-#instagram {
-	padding-bottom: 0rem;
-	margin: 0 2rem;
-}
-figcaption {
-  margin-left: -3.2rem;
-  padding: 2px;
-  text-align: center;
+@keyframes {
+	to {
+		width: 100%;
+	}
 }
