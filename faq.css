@@ -8,7 +8,7 @@ summary.question {
 }
 .answer{
 	margin:4rem 2rem;
-	max-width: 1050px
+	max-width: 1050px;
 	padding:0 !important;
 }
 #empty {
