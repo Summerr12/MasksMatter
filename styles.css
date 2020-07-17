@@ -207,3 +207,23 @@ figcaption span {
 .evalicon {
 	width:20rem;
 }
+#criteria {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+@media all and (max-width: 1164px){
+	#criteria {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin:0;
+	}
+	.evalicon {
+		width:13rem;
+	}
+}
