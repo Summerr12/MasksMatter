@@ -58,7 +58,9 @@
 .prize h2 {
 	margin:0;
 }
-
+#video {
+	margin:3rem;
+}
 /*Dropbox*/
 #maillink {
 	text-decoration: none;
