@@ -23,6 +23,9 @@
 	justify-content: space-around;
 	align-items: flex-start;
 }
+#criteria summary {
+	text-align: center;
+}
 .catagory {
 	display:flex;
 	flex-direction:column;
