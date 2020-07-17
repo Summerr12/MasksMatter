@@ -37,6 +37,7 @@
 	justify-content: center;
 	font-size: 2.1rem;
 }
+<figcaption class="fadein">Bracket 2</figcaption>
 @media all and (max-width: 1200px){
 	.prize {
 		font-size: 1.7rem;

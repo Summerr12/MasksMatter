@@ -26,6 +26,9 @@
 #criteria summary {
 	text-align: center;
 }
+.subcap {
+	padding-bottom: 1rem;
+}
 .catagory {
 	display:flex;
 	flex-direction:column;
