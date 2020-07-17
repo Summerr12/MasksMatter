@@ -50,7 +50,6 @@
 		justify-content: center;
 	}
 	.prize{
-		font-size: 3rem;
 		font-size: 1.4rem;
 		padding:1rem;
 	}
@@ -87,11 +86,11 @@ details[open] summary {
     margin-bottom: .5em;
 }
 ol  {
-	font-size: 1.5rem; 
+	font-size: 1.5rem;
 	text-align:left;
 }
 ol li{
-	margin-bottom:1.4rem; 
+	margin-bottom:1.4rem;
 }
 ul{
 	font-size: 1.2rem;
