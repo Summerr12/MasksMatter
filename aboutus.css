@@ -40,30 +40,44 @@
 	transform: rotate(315deg) translate(12em) rotate(-315deg);
 }
 
+.circle-container a:not(.center):before {
+    position: absolute;
+    width: 1em;
+    color: black;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    font: 1em/3.45 Courier, monospace;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-indent: -2em;
+    text-shadow: 0 0 .1em deeppink;
+    transition: .7s; 
+    content: attr(class)'°';
+}
 .circle-container a:hover:before { opacity: 1; }
 
 /* this is for showing the circle on which the images are placed */
-.circle-container:after {
-	position: absolute;
-	top: 2.8em; left: 2.8em;
-	width: 24em; height: 24em;
-	border: dashed 1px deeppink;
-	border-radius: 50%;
-	opacity: .3;
-	pointer-events: none;
-	content: '';
-}
-.circle-container:hover:after { opacity: 1; }
-.circle-container a:not(.center):after {
-	position: absolute;
-	top: 50%; left: 50%;
-	width: 4px; height: 4px;
-	border-radius: 50%;
-	box-shadow: 0 0 .5em .5em white;
-	margin: -2px;
-	background: deeppink;
-	opacity: .3;
-	content: '';
-}
-.circle-container:hover a:after { opacity: 1; }
-.circle-container a:hover:after { opacity: .3; }
+/*.circle-container:after {
+    position: absolute;
+    top: 2.8em; left: 2.8em;
+    width: 24em; height: 24em;
+    border: dashed 1px deeppink;
+    border-radius: 50%;
+    opacity: .3;
+    pointer-events: none;
+    content: '';
+}*/
+/*.circle-container:hover:after { opacity: 1; }*/
+/*.circle-container a:not(.center):after {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 .5em .5em white;
+    margin: -2px;
+    background: deeppink;
+    opacity: .3;
+    content: '';
+}*/
+/*.circle-container:hover a:after { opacity: 1; }*/
+/*.circle-container a:hover:after { opacity: .3; }*/
