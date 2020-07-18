@@ -52,12 +52,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-
-
-
-
-for(let profile of document.querySelectorAll(".circle-container a"))
-{
-	hover.onmouseover = e => {console.log(e)};
-}
