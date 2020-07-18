@@ -191,6 +191,7 @@ footer h2{
 	padding-bottom: 0rem;
 	margin-right:2rem;
 	width:4rem;
+	height: 60px;
 }
 
 @media all and (max-width: 948px) {
