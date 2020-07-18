@@ -73,7 +73,7 @@ victoria top left*/
 	font-weight: bold;
 }
 .big{
-	font-size: 35px;
+	font-size: 28px;
 }
 
 #circlehover {
@@ -96,8 +96,8 @@ victoria top left*/
         justify-content: space-around;
     }
     .us {
-        max-width:10rem;
-        max-height:10rem;
+        max-width:12rem;
+        max-height:12rem;
         opacity:1;
         margin: 1rem;
     }
