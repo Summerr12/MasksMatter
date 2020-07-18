@@ -183,13 +183,33 @@ footer {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	padding-bottom: 
 }
 footer h2{
-	margin-left: 1rem;
+	margin:0rem 2rem 0 .5rem;
+
 }
-#instagram {
+.instagram {
 	padding-bottom: 0rem;
-	margin: 0 2rem;
+	margin-right:2rem;
+	width:4rem;
+}
+
+@media all and (max-width: 948px){
+	.instagram {
+	margin-right:.5rem;
+	}
+	footer h2{
+	margin-left: .15rem;
+	margin-right:.5rem;
+}
+@media all and (max-width: 705px){
+	.instagram {
+		width:2.6rem;
+	}
+	footer h2{
+		font-size: 1.6rem;
+}
 }
 /*Animation via JS*/
 .fadein {
