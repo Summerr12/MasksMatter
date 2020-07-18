@@ -5,7 +5,7 @@
 	position: relative;
 	width: 24em;
 	height: 24em;
-	padding: 2.8em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+	padding: 2em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
 	border: solid 1px;
 	border-radius: 50%;
 	margin: 1.75em auto 0;
@@ -28,6 +28,7 @@
   transition: all 400ms ease-out;
   text-align: center;	
 }
+
 .example .content:hover{
 	opacity:1;
 }
@@ -46,6 +47,45 @@
 	transform: translate(12em);
 } *//* 12em = half the width of the wrapper */
 /*gives background and puts it in the middle*/
+
+.circle img:not(.center) {
+	animation: 10s linear 0s infinite running spin;
+	z-index: 1;
+} 
+
+#deg60 {
+	animation-delay: calc(-10s / 360 * 60);
+}
+
+#deg120 {
+	animation-delay: calc(-10s / 360 * 120);
+}
+
+#deg180 {
+	animation-delay: calc(-10s / 360 * 180);
+}
+
+#deg240 {
+	animation-delay: calc(-10s / 360 * 240);
+}
+
+#deg300 {
+	animation-delay: calc(-10s / 360 * 300);
+}
+
+.center * {
+	padding: 0 2em;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg) translate(12em) rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg) translate(12em) rotate(-360deg);
+	}
+}
+
 .description {
 	transform: rotate(90deg) translate(9em) rotate(-90deg) translate(6em);
 	width: 50%;
