@@ -89,3 +89,26 @@ Felicia bottom right
 Ben bottom
 ayaka bottom left
 victoria top left*/
+.normal {
+    display:none;
+}
+@media all and (max-width:1300px){
+    .circle {
+        display:none;
+    }
+    .normal {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .us {
+        max-width:10rem;
+        max-height:10rem;
+        opacity:1;
+        margin:5rem;
+    }
+}
+
+
