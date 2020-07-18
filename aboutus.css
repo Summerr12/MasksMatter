@@ -5,24 +5,17 @@
 	position: relative;
 	width: 24em;
 	height: 24em;
-	padding: 2em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+	padding: 2em; 
 	border-radius: 50%;
 	margin: 1.75em auto 0;
 }
 .circle img {
 	display: block;
-	/*overflow: hidden;*/
 	position: absolute;
 	top: 50%; left: 50%;
 	width: 7em; height: 7em;
 	margin: -2em;
 }
-
-/*.circle img { display: block; width: 100%; }*/
-/*.logo {
-	transform: translate(12em);
-} *//* 12em = half the width of the wrapper */
-/*gives background and puts it in the middle*/
 
 .circle img:not(.center) {
 	animation: 10s linear 0s infinite running spin;
@@ -66,22 +59,6 @@
 .hanensu {
 	animation-delay: calc(-10s / 360 * 360) !important;
 }
-
-/*Hovers name over icon*/
-/*.circle-container a:not(.center):before {
-    position: absolute;
-    width: 1em;
-    color: black;
-    opacity: 0;
-    font: 1em/3.45;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-shadow: 0 0 .1em purple;
-    transition: .7s;
-    content: attr(data-name);
-}
-.circle-container a:hover:before { opacity: 1; }
-*/
 
 /*RANDOMLY CHOSEN BY GOOGLE SPINNER 1-5(clockwise)
 Hanen top right
