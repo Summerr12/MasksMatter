@@ -1,4 +1,7 @@
-.circle-container {
+.circle body{
+ text-align: left;  
+}
+.circle {
 	position: relative;
 	width: 24em;
 	height: 24em;
@@ -7,81 +10,66 @@
 	border-radius: 50%;
 	margin: 1.75em auto 0;
 }
-.circle-container a {
+.circle img {
 	display: block;
 	/*overflow: hidden;*/
 	position: absolute;
 	top: 50%; left: 50%;
-	width: 4em; height: 4em;
-	margin: -2em; /* 2em = 4em/2 */ /* half the width */
+	width: 5em; height: 5em;
+	margin: -2em;
 }
-.circle-container img { display: block; width: 100%; }
-.deg0 {
+.content {
+  opacity: 0;
+  transition: all 400ms ease-out;
+  text-align: center;	
+}
+.circle .content:hover{
+	opacity:1;
+}
+/*.circle img { display: block; width: 100%; }*/
+/*.logo {
 	transform: translate(12em);
-} /* 12em = half the width of the wrapper */
-
+} *//* 12em = half the width of the wrapper */
+/*gives background and puts it in the middle*/
+.description {
+	transform: rotate(90deg) translate(9em) rotate(-90deg) translate(6em);
+	width: 50%;
+	background:rgba(186, 186, 189, 0.5);
+}
 .feliciasu {
 	transform: rotate(20deg) translate(12em) rotate(-20deg);
 }
 
-.deg135 {
+.ayakachou {
 	transform: rotate(160deg) translate(12em) rotate(-160deg);
 }
 
-.deg180 {
+.benjaminnhan {
 	transform: rotate(90deg) translate(12em) rotate(-90deg);
 }
 
-.deg225 {
+.victoriang {
 	transform: rotate(225deg) translate(12em) rotate(-225deg);
 }
 
-.deg315 {
+.hanensu {
 	transform: rotate(315deg) translate(12em) rotate(-315deg);
 }
-
-.circle-container a:not(.center):before {
+/*Hovers name over icon*/
+/*.circle-container a:not(.center):before {
     position: absolute;
     width: 1em;
     color: black;
     opacity: 0;
-    background: rgba(0,0,0,.5);
-    font: 1em/3.45 Courier, monospace;
+    font: 1em/3.45;
     letter-spacing: 2px;
     text-decoration: none;
-    text-indent: -2em;
-    text-shadow: 0 0 .1em deeppink;
+    text-shadow: 0 0 .1em purple;
     transition: .7s; 
-    content: attr(class)'°';
+    content: attr(data-name);
 }
 .circle-container a:hover:before { opacity: 1; }
-
-/* this is for showing the circle on which the images are placed */
-/*.circle-container:after {
-    position: absolute;
-    top: 2.8em; left: 2.8em;
-    width: 24em; height: 24em;
-    border: dashed 1px deeppink;
-    border-radius: 50%;
-    opacity: .3;
-    pointer-events: none;
-    content: '';
-}*/
-/*.circle-container:hover:after { opacity: 1; }*/
-/*.circle-container a:not(.center):after {
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 4px; height: 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 .5em .5em white;
-    margin: -2px;
-    background: deeppink;
-    opacity: .3;
-    content: '';
-}*/
-/*.circle-container:hover a:after { opacity: 1; }*/
-/*.circle-container a:hover:after { opacity: .3; }*/
-
+*/
 
 /*RANDOMLY CHOSEN BY GOOGLE SPINNER 1-5(clockwise)
 Hanen top right
