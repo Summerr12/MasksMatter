@@ -43,7 +43,7 @@
 }
 
 .description {
-	transform: rotate(90deg) translate(10em) rotate(-90deg) translate(7.5em);
+	transform: rotate(90deg) translate(11.2em) rotate(-90deg) translate(7.5em);
 	width: 50%;
 	background:rgba(186, 186, 189, 0.5);
 }
