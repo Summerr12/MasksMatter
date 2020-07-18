@@ -78,10 +78,14 @@ victoria top left*/
 
 #circlehover {
 	text-align: center;	
+    margin:-2rem 15rem 5rem 15rem;
 }
 @media all and (max-width:1441px){
 
     .circle {
+        display:none;
+    }
+    #hover {
         display:none;
     }
     .normal {
@@ -97,8 +101,13 @@ victoria top left*/
         opacity:1;
         margin: 1rem;
     }
-    #circlehover{
-    	display: none;
+    #circlehover {
+        margin: 1rem 8rem 3rem 8rem;
+    }
+}
+@media all and (max-width:760px){
+    #circlehover {
+        margin:1rem 2rem;
     }
 }
 
