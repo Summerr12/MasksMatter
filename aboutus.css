@@ -6,7 +6,6 @@
 	width: 24em;
 	height: 24em;
 	padding: 2em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
-	border: solid 1px;
 	border-radius: 50%;
 	margin: 1.75em auto 0;
 }
@@ -15,7 +14,7 @@
 	/*overflow: hidden;*/
 	position: absolute;
 	top: 50%; left: 50%;
-	width: 5em; height: 5em;
+	width: 7em; height: 7em;
 	margin: -2em;
 }
 
@@ -44,28 +43,28 @@
 }
 
 .description {
-	transform: rotate(90deg) translate(9em) rotate(-90deg) translate(6em);
+	transform: rotate(90deg) translate(10em) rotate(-90deg) translate(7.5em);
 	width: 50%;
 	background:rgba(186, 186, 189, 0.5);
 }
 .feliciasu {
-	animation-delay: calc(-10s / 360 * 20) !important;
+	animation-delay: calc(-10s / 360 * 72) !important;
 }
 
 .ayakachou {
-	animation-delay: calc(-10s / 360 * 160) !important;
+	animation-delay: calc(-10s / 360 * 216) !important;
 }
 
 .benjaminnhan {
-	animation-delay: calc(-10s / 360 * 90) !important;
+	animation-delay: calc(-10s / 360 * 144) !important;
 }
 
 .victoriang {
-	animation-delay: calc(-10s / 360 * 225) !important;
+	animation-delay: calc(-10s / 360 * 288) !important;
 }
 
 .hanensu {
-	animation-delay: calc(-10s / 360 * 315) !important;
+	animation-delay: calc(-10s / 360 * 360) !important;
 }
 
 /*Hovers name over icon*/
