@@ -1,5 +1,5 @@
 .circle body{
- text-align: left;  
+	text-align: left;
 }
 .circle {
 	position: relative;
@@ -27,7 +27,7 @@
 .circle img:not(.center) {
 	animation: 10s linear 0s infinite running spin;
 	z-index: 1;
-} 
+}
 
 .center * {
 	padding: 0 2em;
@@ -77,7 +77,7 @@
     letter-spacing: 2px;
     text-decoration: none;
     text-shadow: 0 0 .1em purple;
-    transition: .7s; 
+    transition: .7s;
     content: attr(data-name);
 }
 .circle-container a:hover:before { opacity: 1; }

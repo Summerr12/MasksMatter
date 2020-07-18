@@ -2,10 +2,9 @@ body {
 	background-image: url("images/mountain.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-weight: 30em;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	text-align: center;
 	font-size: 21px;
 }
@@ -33,7 +32,7 @@ nav li {
 	align-items: center;
 }
 nav li::before, nav li::after{
-	content: '';
+	content: "";
 	display: block;
 	height: 5px;
 	background-color: #444;
@@ -183,7 +182,6 @@ footer {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	padding-bottom: 
 }
 footer h2{
 	margin:0rem 2rem 0 .5rem;
@@ -195,23 +193,27 @@ footer h2{
 	width:4rem;
 }
 
-@media all and (max-width: 948px){
+@media all and (max-width: 948px) {
 	.instagram {
-	margin-right:.5rem;
+		margin-right: .5rem;
 	}
-	footer h2{
-	margin-left: .15rem;
-	margin-right:.5rem;
-}
-@media all and (max-width: 705px){
-	.instagram {
-		width:2.6rem;
+
+	footer h2 {
+		margin-left: .15rem;
+		margin-right: .5rem;
 	}
-	footer h2{
-		font-size: 1.6rem;
-}
-}
-/*Animation via JS*/
-.fadein {
-	opacity: 0;
+
+	@media all and (max-width: 705px) {
+		.instagram {
+			width: 2.6rem;
+		}
+
+		footer h2 {
+			font-size: 1.6rem;
+		}
+	}
+	/*Animation via JS*/
+	.fadein {
+		opacity: 0;
+	}
 }
