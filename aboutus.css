@@ -96,6 +96,9 @@ victoria top left*/
 	margin:4rem;
 	font-weight: bold;
 }
+.big{
+	font-size: 35px;
+}
 @media all and (max-width:1300px){
     .circle {
         display:none;
