@@ -77,7 +77,7 @@ victoria top left*/
 .big{
 	font-size: 35px;
 }
-@media all and (max-width:1300px){
+@media all and (max-width:1441px){
     .circle {
         display:none;
     }
