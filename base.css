@@ -207,6 +207,7 @@ footer h2{
 	@media all and (max-width: 705px) {
 		.instagram {
 			width: 2.6rem;
+			height:45px;
 		}
 
 		footer h2 {
