@@ -4,19 +4,7 @@
 	display: inline-block;
 }
 
-/*Mission Statement*/
-.missionstate {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	font-size: 25px;
-	font-weight: 500;
-	margin: 0 2rem;
-}
-@media all and (max-width: 800px) {
-	.missionstate {
-		font-size: 1.6rem;
-	}
-}
+
 /*THE WINNING SUBMISSION*/
 /*The RULES*/
 /*Judging Criteria*/
