@@ -76,6 +76,9 @@ victoria top left*/
 .big{
 	font-size: 35px;
 }
+#circlehover {
+	text-align: center;	
+}
 @media all and (max-width:1300px){
     .circle {
         display:none;
@@ -92,6 +95,9 @@ victoria top left*/
         max-height:10rem;
         opacity:1;
         margin: 1rem;
+    }
+    #circlehover{
+    	display: none;
     }
 }
 
