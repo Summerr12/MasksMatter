@@ -92,6 +92,10 @@ victoria top left*/
 .normal {
     display:none;
 }
+.capt {
+	margin:4rem;
+	font-weight: bold;
+}
 @media all and (max-width:1300px){
     .circle {
         display:none;
@@ -107,7 +111,7 @@ victoria top left*/
         max-width:10rem;
         max-height:10rem;
         opacity:1;
-        margin:5rem;
+        margin: 1rem;
     }
 }
 
