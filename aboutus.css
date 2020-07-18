@@ -18,30 +18,7 @@
 	width: 5em; height: 5em;
 	margin: -2em;
 }
-.example {
-  display: block;
-  cursor: pointer;
- }
 
-.content {
-  opacity: 0;
-  transition: all 400ms ease-out;
-  text-align: center;	
-}
-
-.example .content:hover{
-	opacity:1;
-}
-.example .content .description{
-	height: 0;
-	opacity: 1;
-	transition-delay: 1s;
-	transition-duration: 0.4s;
-}
-.example .content:hover .description {
-  opacity: 1;
-  transform: translateY(250px);
-}
 /*.circle img { display: block; width: 100%; }*/
 /*.logo {
 	transform: translate(12em);
@@ -52,26 +29,6 @@
 	animation: 10s linear 0s infinite running spin;
 	z-index: 1;
 } 
-
-#deg60 {
-	animation-delay: calc(-10s / 360 * 60);
-}
-
-#deg120 {
-	animation-delay: calc(-10s / 360 * 120);
-}
-
-#deg180 {
-	animation-delay: calc(-10s / 360 * 180);
-}
-
-#deg240 {
-	animation-delay: calc(-10s / 360 * 240);
-}
-
-#deg300 {
-	animation-delay: calc(-10s / 360 * 300);
-}
 
 .center * {
 	padding: 0 2em;
@@ -92,24 +49,25 @@
 	background:rgba(186, 186, 189, 0.5);
 }
 .feliciasu {
-	transform: rotate(20deg) translate(12em) rotate(-20deg);
+	animation-delay: calc(-10s / 360 * 20) !important;
 }
 
 .ayakachou {
-	transform: rotate(160deg) translate(12em) rotate(-160deg);
+	animation-delay: calc(-10s / 360 * 160) !important;
 }
 
 .benjaminnhan {
-	transform: rotate(90deg) translate(12em) rotate(-90deg);
+	animation-delay: calc(-10s / 360 * 90) !important;
 }
 
 .victoriang {
-	transform: rotate(225deg) translate(12em) rotate(-225deg);
+	animation-delay: calc(-10s / 360 * 225) !important;
 }
 
 .hanensu {
-	transform: rotate(315deg) translate(12em) rotate(-315deg);
+	animation-delay: calc(-10s / 360 * 315) !important;
 }
+
 /*Hovers name over icon*/
 /*.circle-container a:not(.center):before {
     position: absolute;
