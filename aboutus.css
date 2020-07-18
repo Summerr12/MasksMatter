@@ -1,7 +1,8 @@
-.circle body{
-	text-align: left;
-}
 .circle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: 24em;
 	height: 24em;
@@ -12,9 +13,7 @@
 .circle img {
 	display: block;
 	position: absolute;
-	top: 50%; left: 50%;
 	width: 7em; height: 7em;
-	margin: -2em;
 }
 
 .circle img:not(.center) {
@@ -36,7 +35,7 @@
 }
 
 .description {
-	transform: rotate(90deg) translate(11.2em) rotate(-90deg) translate(7.5em);
+	margin-top:1rem;
 	width: 50%;
 	background:rgba(186, 186, 189, 0.5);
 }
@@ -70,16 +69,18 @@ victoria top left*/
     display:none;
 }
 .capt {
-	margin:4rem;
+	margin:5rem;
 	font-weight: bold;
 }
 .big{
 	font-size: 35px;
 }
+
 #circlehover {
 	text-align: center;	
 }
-@media all and (max-width:1300px){
+@media all and (max-width:1441px){
+
     .circle {
         display:none;
     }
@@ -101,4 +102,10 @@ victoria top left*/
     }
 }
 
+.example {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
