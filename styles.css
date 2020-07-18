@@ -21,6 +21,9 @@
 /*The RULES*/
 /*Judging Criteria*/
 /*for rowing judging criteria & winning submission*/
+#dates {
+	font-size: 2.4rem;
+}
 #podium {
 	display: flex;
 	flex-direction: row;

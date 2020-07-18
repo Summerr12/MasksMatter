@@ -1,8 +1,7 @@
-.circle-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.circle body{
+ text-align: left;  
+}
+.circle {
 	position: relative;
 	width: 24em;
 	height: 24em;
@@ -11,21 +10,25 @@
 	border-radius: 50%;
 	margin: 1.75em auto 0;
 }
-.circle-container a {
+.circle img {
 	display: block;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	position: absolute;
 	top: 50%; left: 50%;
-	width: 4em; height: 4em;
-	margin: -2em; /* 2em = 4em/2 */ /* half the width */
+	width: 5em; height: 5em;
+	margin: -2em;
 }
-.circle-container img { display: block; width: 100%; }
-.circle-container a:not(.center) {
+.content {
+  opacity: 0;
+  transition: all 400ms ease-out;
+  text-align: center;	
+}
+.circle img:not(.center) {
 	animation: 10s linear 0s infinite running spin;
 	z-index: 1;
 } 
 
-.circle-container a:not(.center):hover {
+.circle img:not(.center):hover {
 	opacity: 0;
 }
 
@@ -61,3 +64,50 @@
 		transform: rotate(360deg) translate(12em) rotate(-360deg);
 	}
 }
+
+.description {
+	transform: rotate(90deg) translate(9em) rotate(-90deg) translate(6em);
+	width: 50%;
+	background:rgba(186, 186, 189, 0.5);
+}
+.feliciasu {
+	transform: rotate(20deg) translate(12em) rotate(-20deg);
+}
+
+.ayakachou {
+	transform: rotate(160deg) translate(12em) rotate(-160deg);
+}
+
+.benjaminnhan {
+	transform: rotate(90deg) translate(12em) rotate(-90deg);
+}
+
+.victoriang {
+	transform: rotate(225deg) translate(12em) rotate(-225deg);
+}
+
+.hanensu {
+	transform: rotate(315deg) translate(12em) rotate(-315deg);
+}
+/*Hovers name over icon*/
+/*.circle-container a:not(.center):before {
+    position: absolute;
+    width: 1em;
+    color: black;
+    opacity: 0;
+    font: 1em/3.45;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 0 0 .1em purple;
+    transition: .7s; 
+    content: attr(data-name);
+}
+.circle-container a:hover:before { opacity: 1; }
+*/
+
+/*RANDOMLY CHOSEN BY GOOGLE SPINNER 1-5(clockwise)
+Hanen top right
+Felicia bottom right
+Ben bottom
+ayaka bottom left
+victoria top left*/
