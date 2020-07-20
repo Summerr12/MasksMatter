@@ -1,0 +1,26 @@
+ol {
+	padding: 0;
+}
+
+summary.question {
+	margin: 4rem 2rem;
+	font-size: 2rem;
+}
+.answer{
+	margin: 4rem 2rem;
+	max-width: 1050px;
+	padding: 0 !important;
+}
+#empty {
+	width: 100%;
+	height: 9rem;
+}
+@media all and (max-width: 900px){
+	summary.question {
+		margin: 2rem .3rem;
+		font-size: 1.4rem;
+	}
+	.answer{
+		margin: 2rem 1rem;
+	}
+}

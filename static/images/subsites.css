@@ -1,0 +1,100 @@
+.therules ul {
+	font-size: 1.5rem;
+	text-align: left;
+	width: 60%;
+}
+.therules li{
+	margin-bottom: 1.4rem;
+	width: 100%;
+	display: list-item;
+
+}
+@media all and (max-width: 670px){
+	.therules ul{
+		width: 80%;
+	}
+	.therules li{
+		width: 100%;
+	}
+}
+#criteria{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+#criteria summary {
+	text-align: center;
+}
+.catagory {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+summary {
+	background-color: #57adad42;
+}
+@media all and (max-width: 1640px){
+	.catagory {
+		font-size: 1.3rem;
+	}
+	.evalicon {
+		width: 13rem;
+	}
+}
+@media all and (max-width: 1220px){
+	#criteria {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.catagory{
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+
+}
+
+#criteria ol {
+	width: 90vw;
+}
+
+#criteria details div {
+	animation-name: growDown;
+	animation-fill-mode: both;
+	animation-duration: 5s;
+}
+
+#criteria details[open] div {
+	animation-name: growUp;
+}
+
+@keyframes growUp {
+	from {
+		width: 0;
+		/*transform: scaleY(0);*/
+		max-height: 0;
+		overflow: hidden;
+	}
+	to {
+		width: 100%;
+		max-height: 100vh;
+		/*transform: scaleY(1);*/
+	}
+}
+
+@keyframes growDown {
+	from {
+		width: 100%;
+		max-height: 100vh;
+		/*transform: scaleY(1);*/
+	}
+	to {
+		width: 0;
+		/*transform: scaleY(0);*/
+		max-height: 0;
+		overflow: hidden;
+	}
+}
