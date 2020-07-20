@@ -15,6 +15,7 @@
 
         });
  }
+ // Will this work?
  $(window).scroll(function () {
 
         /* Check the location of each desired element */
