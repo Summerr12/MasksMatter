@@ -11,6 +11,9 @@ summary.question {
 	max-width: 1050px;
 	padding: 0 !important;
 }
+.answer li {
+	font-size: 2rem;
+}
 #empty {
 	width: 100%;
 	height: 9rem;
