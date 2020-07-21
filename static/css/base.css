@@ -173,7 +173,8 @@ header img {
 
 main {
 	padding-top: 5rem;
-	background-image: url("/static/images/mountain.png");
+	/*background-image: url("/static/images/mountain.png");*/
+	background-color: #BAE2F3;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
