@@ -77,7 +77,8 @@ details[open] summary {
 	margin-bottom: .5em;
 }
 ol {
-	font-size: 1.5rem;
+	/*font-size: 1.5rem;*/
+	font-size: 1.7rem;
 	text-align: left;
 }
 ol li{

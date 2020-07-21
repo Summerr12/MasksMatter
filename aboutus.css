@@ -1,0 +1,120 @@
+.circle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 24em;
+	height: 24em;
+	padding: 2em; 
+	border-radius: 50%;
+	margin: 1.75em auto 0;
+}
+.circle img {
+	display: block;
+	position: absolute;
+	width: 7em; height: 7em;
+}
+
+.circle img:not(.center) {
+	animation: 10s linear 0s infinite running spin;
+	z-index: 1;
+}
+
+.center * {
+	padding: 0 2em;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg) translate(12em) rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg) translate(12em) rotate(-360deg);
+	}
+}
+
+.description {
+	margin-top:1rem;
+	width: 50%;
+	background:rgba(186, 186, 189, 0.5);
+}
+.feliciasu {
+	animation-delay: calc(-10s / 360 * 72) !important;
+}
+
+.ayakachou {
+	animation-delay: calc(-10s / 360 * 216) !important;
+}
+
+.benjaminnhan {
+	animation-delay: calc(-10s / 360 * 144) !important;
+}
+
+.victoriang {
+	animation-delay: calc(-10s / 360 * 288) !important;
+}
+
+.hanensu {
+	animation-delay: calc(-10s / 360 * 360) !important;
+}
+
+/*RANDOMLY CHOSEN BY GOOGLE SPINNER 1-5(clockwise)
+Hanen top right
+Felicia bottom right
+Ben bottom
+ayaka bottom left
+victoria top left*/
+.normal {
+    display:none;
+}
+.capt {
+	margin:5rem;
+	font-weight: bold;
+}
+.big{
+	font-size: 28px;
+}
+
+#circlehover {
+	text-align: center;	
+    margin:-2rem 15rem 5rem 15rem;
+}
+@media all and (max-width:1441px){
+
+    .circle {
+        display:none;
+    }
+    #hover {
+        display:none;
+    }
+    .normal {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .us {
+        max-width:12rem;
+        max-height:12rem;
+        opacity:1;
+        margin: 1rem;
+    }
+    #circlehover {
+        margin: 1rem 8rem 3rem 8rem;
+    }
+}
+@media all and (max-width:760px){
+    #circlehover {
+        margin:1rem 2rem;
+    }
+}
+
+.example {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
