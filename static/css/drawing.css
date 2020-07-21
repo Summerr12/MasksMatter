@@ -4,7 +4,7 @@ body {
 }
 
 nav div a {
-	text-shadow: 1px 1px #FFF;
+	text-shadow: 2px 2px 10px #FFF;
 }
 
 nav div a:hover {
