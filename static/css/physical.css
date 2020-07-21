@@ -1,0 +1,8 @@
+body {
+	background-image: url("/static/images/physicalmask.jpg");
+	background-position: center top;
+}
+
+header h1 {
+	text-shadow: 2px 2px #FFF;
+}

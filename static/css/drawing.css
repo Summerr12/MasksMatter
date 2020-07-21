@@ -1,0 +1,16 @@
+body {
+	background-image: url("/static/images/drawnmask.jpg");
+	background-position: center bottom;
+}
+
+nav div a {
+	text-shadow: 2px 2px 10px #FFF;
+}
+
+nav div a:hover {
+	color: #084251;
+}
+
+header h1 {
+	text-shadow: 2px 2px #FFF;
+}

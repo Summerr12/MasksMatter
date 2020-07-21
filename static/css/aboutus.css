@@ -1,3 +1,11 @@
+body {
+	background-image: url("/static/images/mountain.png");
+}
+
+header {
+	height: auto;
+}
+
 .circle {
 	display: flex;
 	flex-direction: column;
