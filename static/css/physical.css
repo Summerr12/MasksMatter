@@ -6,3 +6,9 @@ body {
 header h1 {
 	text-shadow: 2px 2px #FFF;
 }
+
+@media all and (max-width: 500px) {
+	body {
+		background-position: right top;
+	}
+}
