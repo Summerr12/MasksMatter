@@ -174,7 +174,7 @@ header img {
 main {
 	padding-top: 5rem;
 	/*background-image: url("/static/images/mountain.png");*/
-	background-color: #BAE2F3;
+	background-color: #d5eef9f2;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -188,7 +188,7 @@ main {
 
 /*Footer*/
 footer {
-	background-color: #137d97;
+	background-color: #468ead;
 	height: 4rem;
 	display: flex;
 	flex-direction: row;
