@@ -9,6 +9,6 @@ header h1 {
 
 @media all and (max-width: 500px) {
 	body {
-		background-position: right top;
+		background-position: left top;
 	}
 }
