@@ -3,14 +3,6 @@ body {
 	background-position: center top;
 }
 
-nav div a {
-	text-shadow: 1px 1px #FFF;
-}
-
-nav div a:hover {
-	color: #084251;
-}
-
 header h1 {
 	text-shadow: 2px 2px #FFF;
 }

@@ -58,12 +58,12 @@ nav a{
 	color: #084251;
 	padding: 0;
 }
-nav a:hover {
-	color: black;
-}
 nav h3 {
 	margin: 0px;
 	padding: 0;
+}
+nav div a {
+	text-shadow: 1px 1px #FFF;
 }
 nav div:last-child {
 	max-width: 80px;
