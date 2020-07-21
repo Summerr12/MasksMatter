@@ -1,8 +1,9 @@
 body {
-	background-image: url("/static/images/masks.jpg");
+	background-image: url("/static/images/bluemasks.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center center;
 	margin: 0px;
 	padding: 0px;
 	font-family: "Josefin Sans", sans-serif;
