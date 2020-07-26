@@ -7,7 +7,7 @@ $(document).ready(() => {
 });
 
 function plusSlides(n, arrownav) {
-  slideshow = arrownav.parentElement;
+  let slideshow = arrownav.parentElement;
   slideshow.currentSlideIndex += n;
   showSlides(slideshow);
 }
@@ -35,5 +35,5 @@ function showSlides(slideshow) {
   }
 
   slides[slideshow.currentSlideIndex].style.display = "block";
-  dots[slideshow.currentSlideIndex].classList.add("active");
+  if(dots && dots.length > 0) dots[slideshow.currentSlideIndex].classList.add("active");
 }
