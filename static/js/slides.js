@@ -1,38 +1,39 @@
-var slideshow1 = document.getElementById("slideshow1");
-slideshow1.currentSlideIndex = 1;
-showSlides(slideshow1.currentSlideIndex, slideshow1);
+$(document).ready(() => {
+  for(let slideshow of document.getElementsByClassName("slideshow-container"))
+  {
+    slideshow.currentSlideIndex = 0;
+    showSlides(slideshow);
+  }
+});
 
-var slideshow2 = document.getElementById("slideshow2");
-slideshow2.currentSlideIndex = 1;
-showSlides(slideshow2.currentSlideIndex, slideshow2);
-
-var slideshow0 = document.getElementById("slideshow0");
-slideshow0.currentSlideIndex = 1;
-showSlides(slideshow0.currentSlideIndex, slideshow0);
-
-function plusSlides(n, slideshow) {
-  showSlides(slideshow.currentSlideIndex += n, slideshow);
+function plusSlides(n, arrownav) {
+  slideshow = arrownav.parentElement;
+  slideshow.currentSlideIndex += n;
+  showSlides(slideshow);
 }
 
-function currentSlide(n, slideshow) {
-  showSlides(slideshow.currentSlideIndex = n, slideshow);
+function currentSlide(n, dot) {
+  let slideshow = dot.parentNode.previousElementSibling;
+  slideshow.currentSlideIndex = n - 1;
+  showSlides(slideshow);
 }
 
-function showSlides(n, slideshow) {
+function showSlides(slideshow) {
   let slides = slideshow.getElementsByClassName("mySlides");
-  let dots = slideshow.getElementsByClassName("dot");
-  if (n > slides.length) {
-    slideshow.currentSlideIndex = 1
+  let dots = slideshow.nextElementSibling.getElementsByClassName("dot");
+
+  slideshow.currentSlideIndex %= slides.length;
+  if (slideshow.currentSlideIndex < 0) {
+    slideshow.currentSlideIndex = slides.length - 1;
   }
-  if (n < 1) {
-    slideshow.currentSlideIndex = slides.length
-  }
+
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   for (let i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].classList.remove("active");
+    dots[i].classList.remove("active");
   }
-  slides[slideshow.currentSlideIndex - 1].style.display = "block";
-  dots[slideshow.currentSlideIndex - 1].classList.add("active");
+
+  slides[slideshow.currentSlideIndex].style.display = "block";
+  dots[slideshow.currentSlideIndex].classList.add("active");
 }
