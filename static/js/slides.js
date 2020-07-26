@@ -19,20 +19,20 @@ function currentSlide(n, slideshow) {
 }
 
 function showSlides(n, slideshow) {
-  
-
-
-  var i;
-  var slides = slideshow.getElementsByClassName("mySlides");
-  var dots = slideshow.getElementsByClassName("dot");
-  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
-  if (n < 1) {slideshow.currentSlideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+  let slides = slideshow.getElementsByClassName("mySlides");
+  let dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideshow.currentSlideIndex = 1
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+  if (n < 1) {
+    slideshow.currentSlideIndex = slides.length
   }
-  slides[slideshow.currentSlideIndex-1].style.display = "block";  
-  dots[slideshow.currentSlideIndex-1].className += " active";
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].classList.remove("active");
+  }
+  slides[slideshow.currentSlideIndex - 1].style.display = "block";
+  dots[slideshow.currentSlideIndex - 1].classList.add("active");
 }
