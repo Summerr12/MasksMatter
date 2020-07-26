@@ -40,8 +40,7 @@
 			<br>
 			<h2 class="subtitles">— STEPS TO TAKE —</h2>
 						 <!-- Slideshow container -->
-			<div class="slideshow-container fadein">
-				<!-- Full-width images with number and caption text -->
+			<!-- <div id="slideshow0" class="slideshow-container fadein">
 				<div class="mySlides fade">
 					<div class="numbertext">1 / 8</div>
 					<img src="/static/images/1.png" style="width:100%">
@@ -81,12 +80,9 @@
 					<div class="numbertext">8 / 8</div>
 					<img src="/static/images/8.png" style="width:100%">
 				</div>
-				<!-- Next and previous buttons -->
 			</div>
-
-						 <!-- The dots/circles -->
 			<div id="dots" style="text-align:center">
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<span class="prev" onclick="plusSlides(-1)">&#10094;</span>
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
@@ -95,7 +91,37 @@
 				<span class="dot" onclick="currentSlide(6)"></span>
 				<span class="dot" onclick="currentSlide(7)"></span>
 				<span class="dot" onclick="currentSlide(8)"></span>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<span class="next" onclick="plusSlides(1)">&#10095;</span>
+			</div> -->
+			<div id="slideshow0" class="slideshow-container">
+
+							<div class="mySlides fade">
+							  <div class="numbertext">1 / 3</div>
+							  <img src="/static/images/1.png" style="width:100%">
+							  <div class="text">Caption Text</div>
+							</div>
+
+							<div class="mySlides fade">
+							  <div class="numbertext">2 / 3</div>
+							  <img src="/static/images/1.png" style="width:100%">
+							  <div class="text">Caption Two</div>
+							</div>
+
+							<div class="mySlides fade">
+							  <div class="numbertext">3 / 3</div>
+							  <img src="/static/images/1.png" style="width:100%">
+							  <div class="text">Caption Three</div>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+							<div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1, slideshow2)"></span> 
+							  <span class="dot" onclick="currentSlide(2, slideshow2)"></span> 
+							  <span class="dot" onclick="currentSlide(3, slideshow2)"></span> 
+							</div>
 			</div>
 			<div class="fadein">
 				<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScsT2CWmPeAeOIiQAeZ7pk1hlon7UAqh4jieAmbpfq4y2hZqA/viewform">
