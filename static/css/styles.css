@@ -12,6 +12,15 @@
 #dates {
 	font-size: 2rem;
 }
+.intrubric {
+	border: 4px solid #185b6d;
+	padding: 1rem;
+	display: inline-block;
+}
+#judgingrubric {
+	text-decoration: none;
+	color: black;
+}
 #podium {
 	display: flex;
 	flex-direction: row;
