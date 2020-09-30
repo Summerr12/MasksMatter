@@ -4,7 +4,11 @@
 	display: inline-block;
 }
 
-
+.imgborder {
+	border: 4px solid #185b6d;
+	padding: .5rem;
+	display: inline-block;
+}
 /*THE WINNING SUBMISSION*/
 /*The RULES*/
 /*Judging Criteria*/
@@ -110,10 +114,12 @@ li{
 }
 .icons {
 	width: 25rem;
+	height: 18rem;
 }
 @media all and (max-width: 1340px){
 	.icons{
 		width: 17rem;
+		height: 12rem;
 	}
 }
 @media all and (max-width: 940px){
@@ -124,7 +130,7 @@ li{
 		padding: 1rem;
 	}
 	.icons {
-		width: 55%;
+		width: 35%;
 	}
 }
 .icondiv {
